@@ -1,0 +1,12 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: #003952;
+  .divider {
+    width: 30%;
+    height: 1px;
+    background-color: rgba(256, 256, 256, 0.2);
+  }
+}

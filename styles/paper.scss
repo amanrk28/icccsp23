@@ -1,0 +1,35 @@
+.callForPaperContainer {
+  padding: 2% 5%;
+  padding-top: 120px;
+  color: #333;
+  h1 {
+    text-align: center;
+  }
+  .papersList-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0;
+    max-width: 1000px;
+    margin: auto;
+    .paperList {
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      width: 100%;
+      justify-content: center;
+      align-items: flex-start;
+      h1 {
+        font-size: 24px;
+      }
+      li {
+        line-height: 32px;
+      }
+      &:nth-child(even) {
+        background-color: #333;
+        color: white;
+      }
+      &:last-child {
+        grid-column: span 2;
+      }
+    }
+  }
+}
