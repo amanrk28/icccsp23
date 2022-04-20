@@ -15,7 +15,7 @@ module.exports = {
     'next/core-web-vitals',
     'next',
   ],
-  plugins: ['react', 'import', 'prettier', 'react-hooks'],
+  plugins: ['react', 'import', 'prettier'],
   parserOptions: {
     ecmaVersion: 2021,
     sourceType: 'module',
@@ -74,8 +74,6 @@ module.exports = {
     'react/no-unused-state': ERROR,
     'react/default-props-match-prop-types': OFF,
     'react/jsx-props-no-spreading': OFF,
-    'react-hooks/rules-of-hooks': ERROR, // Checks rules of Hooks
-    'react-hooks/exhaustive-deps': WARN, // Checks effect dependencies
     'import/prefer-default-export': OFF,
     'import/extensions': [
       'error',

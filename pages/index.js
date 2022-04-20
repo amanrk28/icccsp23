@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Footer from '../components/Footer';
 import NavBar from '../components/Navbar';
 import HomeSection from '../components/Home';
-import Conference from '../components/conference';
+import Conference from '../components/Conference';
 import AboutUs from '../components/AboutUs';
 import Committee from '../components/Committee';
 import CallForPaper from '../components/CallForPaper';
