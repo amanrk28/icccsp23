@@ -1,23 +1,27 @@
 export default function HomeSection() {
   return (
     <div id="home" className="homeContainer">
-      <h1 style={{ fontSize: '40px' }}>ICCCSP 2023</h1>
-      <h1 style={{ fontSize: '35px' }}>
+      <h1 style={{ fontSize: '40px', color: 'white' }}>ICCCSP 2023</h1>
+      <h1 style={{ fontSize: '35px', color: 'white' }}>
         7<sup>th</sup> International Conference on Computer, Communication and
         Signal Processing
       </h1>
       <h2>January 4 – 6 , 2023</h2>
       <p className="textContents">
-        <span style={{ fontWeight: 500, marginBottom: '20px' }}>
-          Special Focus on
-        </span>
+        <span style={{ fontWeight: 500 }}>Special Focus on</span>
         <br />
-        <b>AI, Knowledge Engineering and IoT for Smart Systems</b>
+        <br />
+        <b style={{ lineHeight: '40px' }}>
+          AI, Knowledge Engineering and IoT for Smart Systems
+        </b>
       </p>
-      <h1 className="ifip">
+      <h1 className="ifip" style={{ color: 'white' }}>
         IFIP Event Number: <span>Waiting for Approval</span>
       </h1>
-      <h1 className="address">
+      <p className="subtext">
+        IFIP AICT Springer series(waiting for approval){' '}
+      </p>
+      <h1 className="address" style={{ color: 'white' }}>
         Department of Information Technology <br /> SSN College of Engineering{' '}
         <br /> Rajiv Gandhi Salai, Kalavakkam - 603 110 <br /> Chennai,
         Tamilnadu, India.

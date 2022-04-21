@@ -10,6 +10,9 @@ import '../styles/paper.scss';
 import '../styles/registration.scss';
 import '../styles/speakers.scss';
 import '../styles/submission.scss';
+import '../styles/archive.scss';
+import '../styles/importantDates.scss';
+import '../styles/contact.scss';
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

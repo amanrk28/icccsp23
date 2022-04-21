@@ -2,6 +2,7 @@ import {
   programCommittee,
   advisoryCommittee,
   organizingCommittee,
+  convener,
 } from './constants';
 export default function Committee() {
   return (
@@ -45,6 +46,21 @@ export default function Committee() {
           </h1>
           <div className="row cards-wrapper">
             {organizingCommittee.map(item => (
+              <div className="card" key={item.name}>
+                <img src={item.image} alt="Card image cap" />
+                <div className="card-body">
+                  <h1 className="card-title">{item.name}</h1>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="section-wrapper">
+          <h1>
+            <b>CONVENER</b>
+          </h1>
+          <div className="row cards-wrapper">
+            {convener.map(item => (
               <div className="card" key={item.name}>
                 <img src={item.image} alt="Card image cap" />
                 <div className="card-body">

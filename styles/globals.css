@@ -17,6 +17,10 @@ a {
   font-family: 'Montserrat', -apple-system, sans-serif;
 }
 
+h1{
+  color: #0765B0;
+}
+
 h4{
   font-size: large;
   text-align: center;
@@ -33,4 +37,7 @@ h4{
 }
 .row-reverse{
   flex-direction: row-reverse;
+}
+.timeline-card-content{
+  padding: 12px;
 }

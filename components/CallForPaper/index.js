@@ -4,15 +4,13 @@ export default function CallForPaper() {
   return (
     <div className="callForPaperContainer" id="callforpaper">
       <div>
-        <h1>
-          <i>CALL FOR PAPERS</i>
-        </h1>
+        <h1>TOPICS OF INTEREST</h1>
         <br />
       </div>
-      <p>
-        The conference committee invites submissions of applied or theoretical
-        research as well as application-oriented papers on conference theme.
-        Topics include, but are not limited to the following:
+      <p style={{ textAlign: 'center' }}>
+        The conference committee invites submissions of manuscripts on
+        conference theme which includes but are not limited to the following
+        topics:
       </p>
       <div className="papersList-wrapper">
         {PAPERS.map(paper => (

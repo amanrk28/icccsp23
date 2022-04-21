@@ -75,12 +75,6 @@ export const programCommittee = [
     image: '/santhosh.png',
   },
   {
-    name: 'Dr. Chandrabose Aravindan',
-    title: 'Professor and Head, Dept. Of Information Technology',
-    description: 'SSN College of Engineering, Chennai, India',
-    image: '/Prof.Aravindan.jpeg',
-  },
-  {
     name: 'Dr.R Srinvisan',
     title: 'Professor, Dept. Of Information Technology',
     description: 'SSN College of Engineering, Chennai, India',
@@ -90,13 +84,22 @@ export const programCommittee = [
     name: 'Dr.A.Shahina',
     title: 'Professor, Dept. Of Information Technology',
     description: 'SSN College of Engineering, Chennai, India',
-    image: '/SeminarHall.jpg',
+    image: '/shahina.jpg',
   },
 ];
 
 export const organizingCommittee = [
-  { name: 'Dr.E.M.Malathy', image: '/SeminarHall.jpg' },
+  { name: 'Dr.E.M.Malathy', image: '/malathy.jpeg' },
   { name: 'Dr.V.Sivamurugan', image: '/SeminarHall.jpg' },
   { name: 'Dr.K.R.Uthayan', image: '/SeminarHall.jpg' },
   { name: 'Dr.K.S.Gayathri', image: '/SeminarHall.jpg' },
+];
+
+export const convener = [
+  {
+    name: 'Dr. Chandrabose Aravindan',
+    title: 'Professor and Head, Dept. Of Information Technology',
+    description: 'SSN College of Engineering, Chennai, India',
+    image: '/Prof.Aravindan.jpeg',
+  },
 ];

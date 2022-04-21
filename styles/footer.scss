@@ -3,10 +3,13 @@
   flex-direction: column;
   align-items: center;
   color: white;
-  background-color: #003952;
+  background-color: #0166b4;
   .divider {
     width: 30%;
     height: 1px;
     background-color: rgba(256, 256, 256, 0.2);
+  }
+  h1 {
+    color: white;
   }
 }

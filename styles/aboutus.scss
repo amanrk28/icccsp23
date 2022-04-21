@@ -1,11 +1,27 @@
+@mixin tablet {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+
 .aboutContainer {
   padding: 2% 5%;
   padding-top: 120px;
-  color: #333;
+  color: white;
+  background-color: #0166b4;
+  h1 {
+    color: white;
+  }
   p {
     font-size: 18px;
     line-height: 30px;
     text-align: justify;
+    max-width: 1000px;
+  }
+  .row {
+    @include tablet {
+      flex-direction: column;
+    }
   }
   .imgContainer {
     padding-left: 5%;
@@ -13,8 +29,15 @@
       padding: 0;
       padding-right: 5%;
       img {
-        width: 400px;
+        max-width: 400px;
+        width: 100%;
       }
+      @include tablet {
+        padding: 0;
+      }
+    }
+    @include tablet {
+      padding: 0;
     }
     img {
       border-radius: 4px;

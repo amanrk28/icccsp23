@@ -3,11 +3,9 @@ import React from 'react';
 export default function Conference() {
   return (
     <div className="confContainer" id="conference">
-      <h1 className="pt-3">
-        <b>ABOUT ICCCSP 2023</b>
-      </h1>
-      <h1>IFIP AICT Series Proceedings</h1>
-      <h1>(Event number: Waiting For Approval)</h1>
+      <h1 className="text-center">ABOUT ICCCSP 2023</h1>
+      <h1 className="text-center">IFIP AICT Series Proceedings</h1>
+      <h1 className="text-center">(Event number: Waiting For Approval)</h1>
       <p>
         The 7th International Conference on Computer, Communication and Signal
         Processing 2023 (ICCCSP &apos;23) has been planned to highlight the

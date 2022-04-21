@@ -1,0 +1,20 @@
+.contactContainer {
+  padding: 2% 5%;
+  padding-top: 120px;
+  .contactDetails {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: fit-content;
+    p {
+      margin: 10px 0;
+      font-size: 20px;
+    }
+    a {
+      margin: 10px 0;
+      color: #0166b4;
+      font-weight: 500;
+      font-size: 20px;
+    }
+  }
+}

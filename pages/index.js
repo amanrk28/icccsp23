@@ -10,6 +10,9 @@ import Submission from '../components/Submission';
 import Speakers from '../components/Speakers';
 import Authors from '../components/Authors';
 import Registrations from '../components/Registrations';
+import Archive from '../components/Archive';
+import ImportantDates from '../components/ImportantDates';
+import Contact from '../components/Contact';
 
 export default function Home() {
   return (
@@ -22,10 +25,13 @@ export default function Home() {
       <NavBar />
       <HomeSection />
       <Conference />
-      <AboutUs />
-      <Committee />
+      <ImportantDates />
       <CallForPaper />
       <Submission />
+      <Committee />
+      <Archive />
+      <AboutUs />
+      <Contact />
       <Speakers />
       <Authors />
       <Registrations />

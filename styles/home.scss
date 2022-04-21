@@ -4,8 +4,9 @@
   padding-bottom: 120px;
   color: white;
   height: auto;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
     url('/bg.png');
+  filter: grayscale(20%);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -26,6 +27,15 @@
       font-size: 28px;
       margin-top: 3rem;
     }
+  }
+  .subtext {
+    font-size: 28px;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: rgba(256, 256, 256, 0.08);
+    backdrop-filter: blur(10px);
+    padding: 4px 8px;
+    text-align: center;
   }
   h2 {
     font-size: 32px;
