@@ -1,32 +1,34 @@
 export default function HomeSection() {
   return (
     <div id="home" className="homeContainer">
-      <h1>ICCCSP 2023</h1>
-      <h1 style={{ fontSize: '30px' }}>
-        <b>
-          7<sup>th</sup> International Conference on Computer, Communication and
-          Signal Processing <br /> January 4 – 5 , 2023
-        </b>
+      <h1 style={{ fontSize: '40px' }}>ICCCSP 2023</h1>
+      <h1 style={{ fontSize: '35px' }}>
+        7<sup>th</sup> International Conference on Computer, Communication and
+        Signal Processing
       </h1>
+      <h2>January 4 – 6 , 2023</h2>
       <p className="textContents">
-        Special Focus on
-        <br />
+        <span style={{ fontWeight: 500, marginBottom: '20px' }}>
+          Special Focus on
+        </span>
         <br />
         <b>AI, Knowledge Engineering and IoT for Smart Systems</b>
       </p>
-      <h1>IFIP Event Number: Waiting for Approval</h1>
-      <h1>
+      <h1 className="ifip">
+        IFIP Event Number: <span>Waiting for Approval</span>
+      </h1>
+      <h1 className="address">
         Department of Information Technology <br /> SSN College of Engineering{' '}
         <br /> Rajiv Gandhi Salai, Kalavakkam - 603 110 <br /> Chennai,
         Tamilnadu, India.
       </h1>
-      <div className="btnContainer">
+      {/* <div className="btnContainer">
         <button>Brochure</button>
         <button>Paper Submission</button>
         <button>Conference Registration</button>
         <button>Schedule</button>
         <button>Pre-Conference Workshop and Registration</button>
-      </div>
+      </div> */}
     </div>
   );
 }

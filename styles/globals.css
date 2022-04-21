@@ -25,3 +25,6 @@ a {
   display: flex;
   align-items: center;
 }
+.row-reverse{
+  flex-direction: row-reverse;
+}

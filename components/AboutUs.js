@@ -33,7 +33,7 @@ export default function AboutUs() {
         </div>
       </div>
       <hr />
-      <div className="row">
+      <div className="row row-reverse">
         <div className="col-lg-8 col-sm-12 col-md-12 col-12">
           <h1>
             <b>About IT Department</b>
@@ -56,8 +56,8 @@ export default function AboutUs() {
             5 years for the period 2015-2020.
           </p>
         </div>
-        <div className="imgContainer">
-          <img src="bg.png" width="90%" alt="ssn2" />
+        <div className="imgContainer it-img">
+          <img src="it.jpeg" alt="ssn2" />
         </div>
       </div>
     </div>

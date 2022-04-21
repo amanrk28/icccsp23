@@ -1,11 +1,11 @@
 .homeContainer {
   padding: 2% 5%;
   padding-top: 120px;
-  margin-top: -130px;
+  padding-bottom: 120px;
   color: white;
-  height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('/Background.jpg');
+  height: auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('/bg.png');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -13,12 +13,28 @@
   align-items: center;
   h1 {
     text-align: center;
+    margin: 0;
     font-size: 35px;
+    &.ifip {
+      font-size: 24px;
+      margin-top: 3rem;
+      span {
+        font-weight: 300;
+      }
+    }
+    &.address {
+      font-size: 28px;
+      margin-top: 3rem;
+    }
+  }
+  h2 {
+    font-size: 32px;
   }
   .textContents {
     text-align: center;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: 700;
     line-height: 90%;
   }
   .btnContainer {

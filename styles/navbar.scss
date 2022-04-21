@@ -1,5 +1,5 @@
 .navContainer {
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -14,9 +14,12 @@
     background: white;
     box-shadow: 0 4px 24px #333;
   }
+  img {
+    width: 130px;
+    height: auto;
+  }
   ul {
     width: 100%;
-    margin-left: 5rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -26,6 +29,9 @@
       a {
         font-weight: 500;
         color: white;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
         &.navChange {
           color: #222;
         }

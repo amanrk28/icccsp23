@@ -32,6 +32,7 @@ export default function Committee() {
                 <img src={item.image} alt="Card image cap" />
                 <div className="card-body">
                   <h1 className="card-title">{item.name}</h1>
+                  <p className="card-text">{item.title}</p>
                   <p className="card-text">{item.description}</p>
                 </div>
               </div>

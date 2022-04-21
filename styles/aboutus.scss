@@ -9,6 +9,13 @@
   }
   .imgContainer {
     padding-left: 5%;
+    &.it-img {
+      padding: 0;
+      padding-right: 5%;
+      img {
+        width: 400px;
+      }
+    }
     img {
       border-radius: 4px;
     }

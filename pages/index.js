@@ -24,8 +24,8 @@ export default function Home() {
       <Conference />
       <AboutUs />
       <Committee />
-      <Submission />
       <CallForPaper />
+      <Submission />
       <Speakers />
       <Authors />
       <Registrations />
