@@ -17,6 +17,12 @@ a {
   font-family: 'Montserrat', -apple-system, sans-serif;
 }
 
+h4{
+  font-size: large;
+  text-align: center;
+  color: #666;
+}
+
 .text-center{
   text-align: center;
 }

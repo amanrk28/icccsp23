@@ -5,7 +5,7 @@ export default function Submission() {
         <b>PAPER SUBMISSION</b>
       </h1>
       <br />
-      <h1>Will be Updated Soon...</h1>
+      <h4>Will be Updated Soon...</h4>
     </div>
   );
 }

@@ -1,14 +1,14 @@
 export const advisoryCommittee = [
   {
     name: 'Dr.Balaraman Ravindran',
-    description:
-      'Professor, Computer Science and Engineering & Robert Bosch Centre for Data Science and AI, IIT Madras, India',
+    title: 'Professor, Dept. of Computer Science and Engineering',
+    description: 'IIT Madras, India',
     image: '/Dr.Ravindran.jpeg',
   },
   {
     name: 'Dr.Prahlad Vadakkepat ',
-    description:
-      'Associate Professor, Dept. of Electrical and Computer Engineering, National University of Singapore, Singapore',
+    title: 'Associate Professor, Dept. of Electrical and Computer Engineering',
+    description: 'National University of Singapore, Singapore',
     image: '/Dr.Prahlad.jpeg',
   },
 ];
@@ -16,28 +16,25 @@ export const advisoryCommittee = [
 export const programCommittee = [
   {
     name: 'Dr. Kun-Chan Lan',
-    title:
-      'Professor, Department of Computer Science and Information Engineering',
+    title: 'Professor, Dept. of Computer Science and Information Engineering',
     description: 'National Cheng Kung University, Taiwan',
     image: '/kun_chan.png',
   },
   {
     name: 'Dr. LEUNG, Yiu Wing',
-    title: 'Professor, Department of Computer Science',
+    title: 'Professor, Dept. of Computer Science',
     description: 'Hong Kong Baptist University, Hong Kong.',
     image: '/yiu_wing.png',
   },
   {
     name: 'Dr. Ahmed Banafa',
-    title: 'Professor, General Engineering',
-    description:
-      'Charles W. Davidson College of Engineering, San Jose State University, San Francisco',
+    title: 'Professor, Dept. of General Engineering',
+    description: 'San Jose State University, San Francisco',
     image: '/ahmed_banafa.png',
   },
   {
     name: 'Dr. Xavier Fernando',
-    title:
-      'Professor, Ryerson Communications Lab, Dept. of Electrical and Computer Eng',
+    title: 'Professor, Dept. of Electrical and Computer Engineering',
     description: 'Ryerson University, Toronto, Canada.',
     image: '/xavier.png',
   },
@@ -48,16 +45,15 @@ export const programCommittee = [
     image: '/vijay_john.png',
   },
   {
-    name: 'Dr Chockalingam Aravind Vaithilingam',
-    title:
-      'Associate Professor, School of Engineering, Faculty of Innovation & Technology',
+    name: 'Dr. Chockalingam Aravind Vaithilingam',
+    title: 'Associate Professor, Faculty of Innovation & Technology',
     description: "Taylor's University, Malaysia",
     image: '/aravind.png',
   },
   {
     name: 'Dr.Saswati Mukherjee',
-    title: 'Professor, Department of Information Technology',
-    description: 'College of Engineering, Anna University, Chennai, India',
+    title: 'Professor, Dept. of Information Technology',
+    description: 'Anna University, Chennai, India',
     image: '/saswati.png',
   },
   {
@@ -68,12 +64,12 @@ export const programCommittee = [
   },
   {
     name: 'Dr. Anand Kumar M',
-    title: 'Assistant professor, Department of Information Technology',
+    title: 'Assistant professor, Dept of Information Technology',
     description: 'National Institute of Technology (NITK), Surathkal',
     image: '/anand_kumar.png',
   },
   {
-    name: 'Mr Santhosh C K',
+    name: 'Mr. Santhosh C K',
     title: 'Director, Research & Development',
     description: 'Nokia, India',
     image: '/santhosh.png',
