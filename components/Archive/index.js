@@ -2,7 +2,7 @@ import { Chrono } from 'react-chrono';
 
 const items = [
   {
-    title: '2021 - 2021',
+    title: '2021 - 2022',
     cardTitle:
       'International Conference on Computer, Communication, and Signal Processing',
     cardSubtitle: 'Special focus on AI and Cyber Security',

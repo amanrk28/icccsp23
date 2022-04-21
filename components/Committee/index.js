@@ -42,10 +42,10 @@ export default function Committee() {
         </div>
         <div className="section-wrapper">
           <h1>
-            <b>ORGANIZING COMMITTEE</b>
+            <b>CONVENER</b>
           </h1>
           <div className="row cards-wrapper">
-            {organizingCommittee.map(item => (
+            {convener.map(item => (
               <div className="card" key={item.name}>
                 <img src={item.image} alt="Card image cap" />
                 <div className="card-body">
@@ -57,10 +57,10 @@ export default function Committee() {
         </div>
         <div className="section-wrapper">
           <h1>
-            <b>CONVENER</b>
+            <b>ORGANIZING COMMITTEE</b>
           </h1>
           <div className="row cards-wrapper">
-            {convener.map(item => (
+            {organizingCommittee.map(item => (
               <div className="card" key={item.name}>
                 <img src={item.image} alt="Card image cap" />
                 <div className="card-body">
