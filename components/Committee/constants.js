@@ -3,13 +3,13 @@ export const advisoryCommittee = [
     name: 'Dr. Balaraman Ravindran',
     title: 'Professor, Dept. of Computer Science and Engineering',
     description: 'IIT Madras, India',
-    image: '/Dr.Ravindran.jpeg',
+    image: 'https://icccsp.com/img/Dr.Ravindran.jpeg',
   },
   {
     name: 'Dr. Prahlad Vadakkepat ',
     title: 'Associate Professor, Dept. of Electrical and Computer Engineering',
     description: 'National University of Singapore, Singapore',
-    image: '/Dr.Prahlad.jpeg',
+    image: 'https://icccsp.com/img/Dr.Prahlad.jpeg',
   },
 ];
 
@@ -18,81 +18,84 @@ export const programCommittee = [
     name: 'Dr. Kun-Chan Lan',
     title: 'Professor, Dept. of Computer Science and Information Engineering',
     description: 'National Cheng Kung University, Taiwan',
-    image: '/kun_chan.png',
+    image: 'https://icccsp.com/img/kun_chan.png',
   },
   {
     name: 'Dr. LEUNG, Yiu Wing',
     title: 'Professor, Dept. of Computer Science',
     description: 'Hong Kong Baptist University, Hong Kong.',
-    image: '/yiu_wing.png',
+    image: 'https://icccsp.com/img/yiu_wing.png',
   },
   {
     name: 'Dr. Ahmed Banafa',
     title: 'Professor, Dept. of General Engineering',
     description: 'San Jose State University, San Francisco',
-    image: '/ahmed_banafa.png',
+    image: 'https://icccsp.com/img/ahmed_banafa.png',
   },
   {
     name: 'Dr. Xavier Fernando',
     title: 'Professor, Dept. of Electrical & Computer Engineering',
     description: 'Ryerson University, Toronto, Canada.',
-    image: '/xavier.png',
+    image: 'https://icccsp.com/img/xavier.png',
   },
   {
     name: 'Dr. Vijay John',
     title: 'Research Scientist',
     description: 'RIKEN Institute, Japan',
-    image: '/vijay_john.png',
+    image: 'https://icccsp.com/img/vijay_john.png',
   },
   {
     name: 'Dr. Chockalingam Aravind Vaithilingam',
     title: 'Associate Professor, Faculty of Innovation & Technology',
     description: "Taylor's University, Malaysia",
-    image: '/aravind.png',
+    image: 'https://icccsp.com/img/aravind.png',
   },
   {
     name: 'Dr. Saswati Mukherjee',
     title: 'Professor, Dept. of Information Science & Technology',
     description: 'Anna University, Chennai, India',
-    image: '/saswati.png',
+    image: 'https://icccsp.com/img/saswati.png',
   },
   {
     name: 'Dr. Premkumar K.',
     title: 'Assistant Professor, Dept. of ECE',
     description: 'IIITD&M, Kancheepuram, India',
-    image: '/premkumar.png',
+    image: 'https://icccsp.com/img/premkumar.png',
   },
   {
     name: 'Dr. Anand Kumar M',
     title: 'Assistant professor, Dept of Information Technology',
     description: 'National Institute of Technology (NITK), Surathkal',
-    image: '/anand_kumar.png',
+    image: 'https://icccsp.com/img/anand_kumar.png',
   },
   {
     name: 'Mr. Santhosh C K',
     title: 'Director, Research & Development',
     description: 'Nokia, India',
-    image: '/santhosh.png',
+    image: 'https://icccsp.com/img/santhosh.png',
   },
   {
     name: 'Dr.R Srinvisan',
     title: 'Professor, Dept. Of Information Technology',
     description: 'SSN College of Engineering, Chennai, India',
-    image: '/Dr.Srinivasan.jpeg',
+    image: 'https://icccsp.com/img/Dr.Srinivasan.jpeg',
   },
   {
     name: 'Dr.A.Shahina',
     title: 'Professor, Dept. Of Information Technology',
     description: 'SSN College of Engineering, Chennai, India',
-    image: '/shahina.jpg',
+    image: 'https://icccsp.com/img/shahina.jpg',
   },
 ];
 
 export const organizingCommittee = [
-  { name: 'Dr.E.M.Malathy', image: '/malathy.jpeg' },
-  { name: 'Dr.V.Sivamurugan', image: '/sivamurugan.jpeg' },
-  { name: 'Dr.K.R.Uthayan', image: '/uthayan.jpg' },
-  { name: 'Dr.K.S.Gayathri', image: '/gayathri.jpeg' },
+  { name: 'Dr.E.M.Malathy', image: 'https://icccsp.com/img/malathy.jpeg' },
+  {
+    name: 'Dr.V.Sivamurugan',
+    image: 'https://icccsp.com/img/sivamurugan.jpeg',
+  },
+  { name: 'Dr.K.R.Uthayan', image: 'https://icccsp.com/img/uthayan.jpg' },
+  { name: 'Dr.K.S.Gayathri', image: 'https://icccsp.com/img/gayathri.jpeg' },
 ];
 
 export const convener = [
@@ -100,6 +103,6 @@ export const convener = [
     name: 'Dr. Chandrabose Aravindan',
     title: 'Professor and Head, Dept. Of Information Technology',
     description: 'SSN College of Engineering, Chennai, India',
-    image: '/Prof.Aravindan.jpeg',
+    image: 'https://icccsp.com/img/Prof.Aravindan.jpeg',
   },
 ];
