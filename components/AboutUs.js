@@ -10,7 +10,7 @@ export default function AboutUs() {
       <div className="row">
         <div>
           <h1>
-            <b>About College</b>
+            <b>Our College</b>
           </h1>
           <p>
             Sri Sivasubramaniya Nadar (SSN), founded by Padma Bhushan Dr. Shiv
@@ -36,7 +36,7 @@ export default function AboutUs() {
       <div className="row row-reverse">
         <div>
           <h1>
-            <b>About IT Department</b>
+            <b>Our IT Department</b>
           </h1>
           <p>
             The Department of Information Technology was established in the year

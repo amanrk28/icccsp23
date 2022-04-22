@@ -1,12 +1,12 @@
 export const advisoryCommittee = [
   {
-    name: 'Dr.Balaraman Ravindran',
+    name: 'Dr. Balaraman Ravindran',
     title: 'Professor, Dept. of Computer Science and Engineering',
     description: 'IIT Madras, India',
     image: '/Dr.Ravindran.jpeg',
   },
   {
-    name: 'Dr.Prahlad Vadakkepat ',
+    name: 'Dr. Prahlad Vadakkepat ',
     title: 'Associate Professor, Dept. of Electrical and Computer Engineering',
     description: 'National University of Singapore, Singapore',
     image: '/Dr.Prahlad.jpeg',
@@ -34,7 +34,7 @@ export const programCommittee = [
   },
   {
     name: 'Dr. Xavier Fernando',
-    title: 'Professor, Dept. of Electrical and Computer Engineering',
+    title: 'Professor, Dept. of Electrical & Computer Engineering',
     description: 'Ryerson University, Toronto, Canada.',
     image: '/xavier.png',
   },
@@ -51,8 +51,8 @@ export const programCommittee = [
     image: '/aravind.png',
   },
   {
-    name: 'Dr.Saswati Mukherjee',
-    title: 'Professor, Dept. of Information Technology',
+    name: 'Dr. Saswati Mukherjee',
+    title: 'Professor, Dept. of Information Science & Technology',
     description: 'Anna University, Chennai, India',
     image: '/saswati.png',
   },
@@ -90,9 +90,9 @@ export const programCommittee = [
 
 export const organizingCommittee = [
   { name: 'Dr.E.M.Malathy', image: '/malathy.jpeg' },
-  { name: 'Dr.V.Sivamurugan', image: '/SeminarHall.jpg' },
-  { name: 'Dr.K.R.Uthayan', image: '/SeminarHall.jpg' },
-  { name: 'Dr.K.S.Gayathri', image: '/SeminarHall.jpg' },
+  { name: 'Dr.V.Sivamurugan', image: '/sivamurugan.jpeg' },
+  { name: 'Dr.K.R.Uthayan', image: '/uthayan.jpg' },
+  { name: 'Dr.K.S.Gayathri', image: '/gayathri.jpeg' },
 ];
 
 export const convener = [
