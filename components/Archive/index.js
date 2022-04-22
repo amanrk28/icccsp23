@@ -5,7 +5,7 @@ const items = [
     title: '2021 - 2022',
     cardTitle: "ICCCSP '22",
     cardSubtitle: 'Special focus on AI and Cyber Security',
-    url: 'https://www.icccsp.com/2021/',
+    url: 'https://www.icccsp.com/2022/',
   },
   {
     title: '2020 - 2021',
