@@ -42,7 +42,7 @@ export default function Committee() {
         </div>
         <div className="section-wrapper">
           <h1>
-            <b>CONVENER</b>
+            <b>CONVENOR</b>
           </h1>
           <div className="row cards-wrapper">
             {convener.map(item => (

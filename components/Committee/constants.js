@@ -76,13 +76,13 @@ export const programCommittee = [
   },
   {
     name: 'Dr.R Srinvisan',
-    title: 'Professor, Dept. Of Information Technology',
+    title: 'Professor, Dept. of Information Technology',
     description: 'SSN College of Engineering, Chennai, India',
     image: 'https://icccsp.com/img/Dr.Srinivasan.jpeg',
   },
   {
     name: 'Dr.A.Shahina',
-    title: 'Professor, Dept. Of Information Technology',
+    title: 'Professor, Dept. of Information Technology',
     description: 'SSN College of Engineering, Chennai, India',
     image: 'https://icccsp.com/img/shahina.jpg',
   },
@@ -101,7 +101,7 @@ export const organizingCommittee = [
 export const convener = [
   {
     name: 'Dr. Chandrabose Aravindan',
-    title: 'Professor and Head, Dept. Of Information Technology',
+    title: 'Professor and Head, Dept. of Information Technology',
     description: 'SSN College of Engineering, Chennai, India',
     image: 'https://icccsp.com/img/Prof.Aravindan.jpeg',
   },
