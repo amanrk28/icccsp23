@@ -42,6 +42,8 @@ export default function Archive() {
         mode="VERTICAL_ALTERNATING"
         hideControls
         cardWidth={400}
+        activeItemIndex={-1}
+        disableClickOnCircle
         theme={{
           cardForeColor: '#444',
           primary: '#0765B0',
