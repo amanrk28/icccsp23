@@ -6,6 +6,7 @@
   height: auto;
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
     url('https://icccsp.com/img/bg.jpeg');
+  background-attachment: fixed;
   filter: grayscale(20%);
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,7 +18,7 @@
     margin: 0;
     font-size: 35px;
     &.ifip {
-      font-size: 24px;
+      font-size: 20px;
       margin-top: 3rem;
       span {
         font-weight: 300;
@@ -29,7 +30,7 @@
     }
   }
   .subtext {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     border-radius: 50px;
     background-color: rgba(256, 256, 256, 0.2);

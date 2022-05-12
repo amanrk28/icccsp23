@@ -5,7 +5,7 @@ export default function Conference() {
     <div className="confContainer" id="conference">
       <h1 className="text-center">ABOUT ICCCSP 2023</h1>
       <h1 className="text-center">IFIP AICT Series Proceedings</h1>
-      <h1 className="text-center">(Event number: Under Process)</h1>
+      <h1 className="text-center">(Event number: under process)</h1>
       <p>
         The 7th International Conference on Computer, Communication and Signal
         Processing 2023 (ICCCSP &apos;23) has been planned to highlight the

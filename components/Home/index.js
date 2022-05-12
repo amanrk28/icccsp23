@@ -21,9 +21,11 @@ export default function HomeSection() {
         Tamilnadu, India.
       </h1>
       <h1 className="ifip" style={{ color: 'white' }}>
-        IFIP Event Number: <span>Under Process</span>
+        IFIP Event Number: <span>under process</span>
       </h1>
-      <p className="subtext">IFIP AICT Springer series(under process)</p>
+      <p className="subtext">
+        Proceedings in IFIP AICT Springer series(under process)
+      </p>
       {/* <div className="btnContainer">
         <button>Brochure</button>
         <button>Paper Submission</button>
