@@ -17,7 +17,7 @@ export default function Speakers() {
               rel="noreferrer noopener"
               className="card"
             >
-              <img src={item.image} alt="Card image cap" />
+              <img src={item.image} alt="Card image cap" loading="lazy" />
               <div className="card-body">
                 <h1 className="card-title">{item.name}</h1>
                 <p className="card-text">{item.designation}</p>

@@ -21,7 +21,7 @@ export default function NavBar() {
     <div className={`navContainer ${changeNavColor ? 'navChange' : ''}`}>
       <Link href="/">
         <a>
-          <img src="https://icccsp.com/img/ssn1.png" alt="SSN" />
+          <img src="https://icccsp.com/img/ssn1.png" alt="SSN" loading="lazy" />
         </a>
       </Link>
       <ul>

@@ -13,7 +13,7 @@ export default function Committee() {
           <div className="row cards-wrapper">
             {advisoryCommittee.map(item => (
               <div className="card advisory" key={item.name}>
-                <img src={item.image} alt="Card image cap" />
+                <img src={item.image} alt="Card image cap" loading="lazy" />
                 <div className="card-body">
                   <h1 className="card-title">{item.name}</h1>
                   <p className="card-text">{item.title}</p>
@@ -30,7 +30,7 @@ export default function Committee() {
           <div className="row cards-wrapper">
             {programCommittee.map(item => (
               <div className="card" key={item.name}>
-                <img src={item.image} alt="Card image cap" />
+                <img src={item.image} alt="Card image cap" loading="lazy" />
                 <div className="card-body">
                   <h1 className="card-title">{item.name}</h1>
                   <p className="card-text">{item.title}</p>
@@ -47,7 +47,7 @@ export default function Committee() {
           <div className="row cards-wrapper">
             {convener.map(item => (
               <div className="card" key={item.name}>
-                <img src={item.image} alt="Card image cap" />
+                <img src={item.image} alt="Card image cap" loading="lazy" />
                 <div className="card-body">
                   <h1 className="card-title">{item.name}</h1>
                   <p className="card-text">{item.title}</p>
@@ -64,7 +64,7 @@ export default function Committee() {
           <div className="row cards-wrapper">
             {organizingCommittee.map(item => (
               <div className="card" key={item.name}>
-                <img src={item.image} alt="Card image cap" />
+                <img src={item.image} alt="Card image cap" loading="lazy" />
                 <div className="card-body">
                   <h1 className="card-title">{item.name}</h1>
                 </div>

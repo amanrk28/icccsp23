@@ -29,7 +29,11 @@ export default function AboutUs() {
           </p>
         </div>
         <div className="imgContainer">
-          <img src="https://icccsp.com/img/Ssn1.jpg" alt="ssn1" />
+          <img
+            src="https://icccsp.com/img/Ssn1.jpg"
+            alt="ssn1"
+            loading="lazy"
+          />
         </div>
       </div>
       <hr />
@@ -57,7 +61,7 @@ export default function AboutUs() {
           </p>
         </div>
         <div className="imgContainer it-img">
-          <img src="https://icccsp.com/img/it.jpeg" alt="ssn2" />
+          <img src="https://icccsp.com/img/it.jpeg" alt="ssn2" loading="lazy" />
         </div>
       </div>
     </div>
