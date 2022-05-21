@@ -1,34 +1,33 @@
-import { Chrono } from 'react-chrono';
-
 const items = [
-  { title: 'TBA', cardTitle: 'Paper Submission Deadline' },
-  { title: 'TBA', cardTitle: 'Acceptance Notification' },
-  { title: 'TBA', cardTitle: 'Camera-ready Copy Submission' },
-  { title: 'TBA', cardTitle: 'Last Date for Registration' },
-  { title: '4th Jan, 2023', cardTitle: 'Pre-Conference Workshop' },
-  { title: '5th-6th Jan, 2023', cardTitle: 'Conference ' },
+  { date: ['1', 'st', ' June 2022'], event: 'Paper Submission Opens from' },
+  { date: ['15', 'th', ' Aug 2022'], event: 'Paper Submission Deadline' },
+  { date: ['15', 'th', ' Oct 2022'], event: 'Acceptance Notification' },
+  { date: ['30', 'th', ' Oct 2022'], event: 'Registration' },
+  { date: ['15', 'th', ' Nov 2022'], event: 'Camera-ready Copy Submission' },
+  { date: ['5 - 6', 'th', ' Jan 2023'], event: 'Pre-Conference Workshop' },
+  { date: ['5 - 6', 'th', ' Jan 2023'], event: 'Conference ' },
 ];
 
 export default function ImportantDates() {
   return (
     <div id="important_dates" className="importantDatesContainer">
       <h1 className="text-center">IMPORTANT DATES</h1>
-      <div style={{ maxWidth: '600px', margin: 'auto' }}>
-        <Chrono
-          items={items}
-          mode="VERTICAL"
-          hideControls
-          cardWidth={280}
-          flipLayout
-          disableClickOnCircle
-          activeItemIndex={-1}
-          theme={{
-            cardForeColor: '#444',
-            primary: '#4338ca',
-            secondary: 'white',
-          }}
-        />
-      </div>
+      <table>
+        <tr>
+          <th>EVENT</th>
+          <th>Date</th>
+        </tr>
+        {items.map(item => (
+          <tr key={item.event}>
+            <td>{item.event}</td>
+            <td>
+              {item.date[0]}
+              <sup>{item.date[1]}</sup>
+              {item.date[2]}
+            </td>
+          </tr>
+        ))}
+      </table>
     </div>
   );
 }

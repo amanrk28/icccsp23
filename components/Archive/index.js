@@ -42,6 +42,7 @@ export default function Archive() {
         mode="VERTICAL_ALTERNATING"
         hideControls
         cardWidth={400}
+        scrollable={false}
         activeItemIndex={-1}
         disableClickOnCircle
         theme={{
