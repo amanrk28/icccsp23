@@ -5,4 +5,21 @@
   h1 {
     text-align: center;
   }
+  h3 {
+    font-size: 23px;
+    margin-bottom: 4px;
+  }
+  p {
+    margin: 4px;
+    font-size: 18px;
+    line-height: 28px;
+    span {
+      color: blue;
+    }
+  }
+  a {
+    line-height: 28px;
+    font-size: 18px;
+    color: blue;
+  }
 }
