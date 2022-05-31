@@ -34,10 +34,10 @@ export default function Home() {
       <Committee />
       <Archive />
       <AboutUs />
-      <Contact />
       <Speakers />
       <Authors />
       <Registrations />
+      <Contact />
       <Footer />
     </>
   );

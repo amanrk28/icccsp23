@@ -21,7 +21,7 @@ export default function HomeSection() {
         Tamilnadu, India.
       </h1>
       <h1 className="ifip" style={{ color: 'white' }}>
-        IFIP Event Number: <span>under process</span>
+        IFIP Event Number: <span>04695</span>
       </h1>
       <p className="subtext">
         Proceedings in IFIP AICT Springer series(under process)
