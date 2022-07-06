@@ -9,6 +9,6 @@ export const LINKS = [
   { name: 'About Us', href: 'about-us' },
   { name: 'Speakers', href: 'speakers' },
   { name: 'For Authors', href: 'authors' },
-  // { name: 'Registration', href: 'registration' },
+  { name: 'Registration', href: 'registration' },
   { name: 'Contact', href: 'contact' },
 ];
