@@ -4,7 +4,7 @@ export default function Speakers() {
   return (
     <div className="speakersContainer" id="speakers">
       <h1>
-        <b>SPEAKERS</b>
+        <b>INVITED TALKS</b>
       </h1>
       <br />
       <div className="section-wrapper">

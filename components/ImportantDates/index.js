@@ -1,10 +1,10 @@
 const items = [
-  { date: ['1', 'st', ' June 2022'], event: 'Paper Submission Opens from' },
-  { date: ['15', 'th', ' Aug 2022'], event: 'Paper Submission Deadline' },
+  { date: ['20', 'th', ' June 2022'], event: 'Paper Submission Opens from' },
+  { date: ['10', 'th', ' Sep 2022'], event: 'Paper Submission Deadline' },
   { date: ['15', 'th', ' Oct 2022'], event: 'Acceptance Notification' },
-  { date: ['30', 'th', ' Oct 2022'], event: 'Registration' },
-  { date: ['15', 'th', ' Nov 2022'], event: 'Camera-ready Copy Submission' },
-  { date: ['5 - 6', 'th', ' Jan 2023'], event: 'Pre-Conference Workshop' },
+  { date: ['15', 'th', ' Nov 2022'], event: 'Early Bird Registration' },
+  { date: ['30', 'th', ' Nov 2022'], event: 'Camera-ready Copy Submission' },
+  { date: ['4', 'th', ' Jan 2023'], event: 'Pre-Conference Workshop' },
   { date: ['5 - 6', 'th', ' Jan 2023'], event: 'Conference ' },
 ];
 
