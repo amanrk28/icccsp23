@@ -2,7 +2,6 @@ import {
   programCommittee,
   advisoryCommittee,
   organizingCommittee,
-  convener,
 } from './constants';
 export default function Committee() {
   return (
@@ -39,7 +38,7 @@ export default function Committee() {
           ))}
         </div>
       </div>
-      <div className="section-wrapper">
+      {/* <div className="section-wrapper">
         <h1>
           <b>CONVENOR</b>
         </h1>
@@ -55,7 +54,7 @@ export default function Committee() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
       <div className="section-wrapper">
         <h1>
           <b>ORGANIZING COMMITTEE</b>

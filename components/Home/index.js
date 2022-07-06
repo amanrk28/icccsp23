@@ -15,17 +15,17 @@ export default function HomeSection() {
           AI, Knowledge Engineering and IoT for Smart Systems
         </b>
       </p>
+      <h1 className="ifip" style={{ color: 'white' }}>
+        IFIP Event Number: <span>04695</span>
+      </h1>
+      <p className="subtext">
+        Proceedings in IFIP AICT Springer series (approval awaiting)
+      </p>
       <h1 className="address" style={{ color: 'white' }}>
         Department of Information Technology <br /> SSN College of Engineering{' '}
         <br /> Rajiv Gandhi Salai, Kalavakkam - 603 110 <br /> Chennai,
         Tamilnadu, India.
       </h1>
-      <h1 className="ifip" style={{ color: 'white' }}>
-        IFIP Event Number: <span>04695</span>
-      </h1>
-      <p className="subtext">
-        Proceedings in IFIP AICT Springer series(under process)
-      </p>
       {/* <div className="btnContainer">
         <button>Brochure</button>
         <button>Paper Submission</button>
