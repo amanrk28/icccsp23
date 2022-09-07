@@ -16,7 +16,8 @@ export default function Contact() {
           For further queries, please write to{' '}
         </p>
         <a href="mailto:icccsp@it.ssn.edu.in">icccsp@it.ssn.edu.in</a>
-      </div>
+        Contact: 9566030563, 9940293132
+              </div>
     </div>
   );
 }

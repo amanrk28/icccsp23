@@ -35,7 +35,7 @@ export default function Registration() {
           </tr>
         ))}
         <tr>
-        <td colspan="3">10% discount on registeration fees for IFIP members, IFIP TC members and IFIP working group</td>
+        <td colSpan="3">10% discount on registeration fees for IFIP members, IFIP TC members and IFIP working group</td>
         </tr>
       </table>
             

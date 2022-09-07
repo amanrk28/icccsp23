@@ -20,17 +20,18 @@ export const programCommittee = [
     description: 'University of Reims Champagne-Ardenne, France',
     image: 'https://icccsp.com/img/eunika.jpeg',
   },
+  
   {
-    name: 'Chandrabose Aravindan',
-    title: 'Professor and Head, Dept. of Information Technology',
-    description: 'SSN College of Engineering, Chennai, India',
-    image: 'https://icccsp.com/img/Prof.Aravindan.jpeg',
-  },
-  {
-    name: 'Xavier Fernando',
+    name: 'Xavier Fernando (Chair)',
     title: 'Professor, Dept. of Electrical & Computer Engineering',
     description: 'Ryerson University, Toronto, Canada.',
     image: 'https://icccsp.com/img/xavier.png',
+  },
+  {
+    name: 'Chandrabose Aravindan (Co-chair)',
+    title: 'Professor and Head, Dept. of Information Technology',
+    description: 'SSN College of Engineering, Chennai, India',
+    image: 'https://icccsp.com/img/Prof.Aravindan.jpeg',
   },
   {
     name: 'Kun-Chan Lan',
