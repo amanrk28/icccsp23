@@ -8,11 +8,11 @@ export default function Conference() {
       <h1 className="text-center">ABOUT ICCCSP 2023</h1>
       <div className="row" style={{ justifyContent: 'space-between', width: '100%' }}>
         <div className="row" style={{ flexDirection: 'column' }}>
-          <img src="/ifip.jpeg" alt="IFIP" height={118} />
+          <img src="https://icccsp.com/img/ifip.jpeg" alt="IFIP" height={118} />
           <h2 className="text-center">Event number: 04695</h2>
         </div>
         <div className="row" style={{ flexDirection: 'column' }}>
-          <img src="/springer.jpeg" alt="IFIP"/>
+          <img src="https://icccsp.com/img/springer.jpeg" alt="Springer"/>
           <h2 className="text-center">IFIP AICT Series (approval awaiting)</h2>
         </div>
       </div>
