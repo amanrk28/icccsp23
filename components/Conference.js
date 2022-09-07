@@ -1,11 +1,21 @@
 import React from 'react';
+import AboutUs from './AboutUs';
 
 export default function Conference() {
   return (
+    <>
     <div className="confContainer" id="conference">
       <h1 className="text-center">ABOUT ICCCSP 2023</h1>
-      <h1 className="text-center">IFIP AICT Series Proceedings</h1>
-      <h1 className="text-center">(Event number: 04695)</h1>
+      <div className="row" style={{ justifyContent: 'space-between', width: '100%' }}>
+        <div className="row" style={{ flexDirection: 'column' }}>
+          <img src="/ifip.jpeg" alt="IFIP" height={118} />
+          <h2 className="text-center">Event number: 04695</h2>
+        </div>
+        <div className="row" style={{ flexDirection: 'column' }}>
+          <img src="/springer.jpeg" alt="IFIP"/>
+          <h2 className="text-center">IFIP AICT Series (approval awaiting)</h2>
+        </div>
+      </div>
       <p>
         The 7th International Conference on Computer, Communication and Signal
         Processing 2023 (ICCCSP &apos;23) has been planned to highlight the
@@ -26,5 +36,7 @@ export default function Conference() {
         International Federation for Information Processing (IFIP).
       </p>
     </div>
+    <AboutUs />
+    </>
   );
 }

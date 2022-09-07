@@ -17,11 +17,13 @@ export default function ImportantDates() {
           <th>EVENT</th>
           <th>Date</th>
         </tr>
-        
-        {items.map(item => (
+
+        {items.map((item, idx) => (
           <tr key={item.event}>
             <td>{item.event}</td>
             <td>
+              {idx === 1 && <span><s>10<sup>th</sup> Sep</s> &nbsp;&nbsp;</span>}
+              {idx === 2 && <span><s>15<sup>th</sup> Oct</s> &nbsp;&nbsp;</span>}
               {item.date[0]}
               <sup>{item.date[1]}</sup>
               {item.date[2]}

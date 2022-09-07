@@ -11,7 +11,7 @@ export default function Registration() {
     <div className="registrationContainer" id="registration">
       <div id="Registration Details" className="importantDatesContainer">
       <h1 className="text-center">REGISTRATION DETAILS</h1>
-      <p>
+      <p className="text-center">
         At least one author of each accepted paper must register for the
         conference and present the paper.
       </p>
@@ -26,11 +26,11 @@ export default function Registration() {
             <td>{item.event}</td>
             <td>
               {item.date[0]}
-              
+
             </td>
             <td>
               {item.date[1]}
-              
+
             </td>
           </tr>
         ))}
@@ -38,8 +38,8 @@ export default function Registration() {
         <td colSpan="3">10% discount on registeration fees for IFIP members, IFIP TC members and IFIP working group</td>
         </tr>
       </table>
-            
-    <p>
+
+    <p className="text-center">
     * No TA and DA will be provided
   </p>
     </div>

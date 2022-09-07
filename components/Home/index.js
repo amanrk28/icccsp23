@@ -15,17 +15,26 @@ export default function HomeSection() {
           AI, Knowledge Engineering and IoT for Smart Systems
         </b>
       </p>
+      <div style={{display: 'flex', justifyContent: 'space-between', width: '100%'}}>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <img src="/ifip.jpeg" alt="Springer" height={118} />
       <h1 className="ifip" style={{ color: 'white' }}>
         IFIP Event Number: <span>04695</span>
       </h1>
-      <p className="subtext">
-        Proceedings in IFIP AICT Springer series (approval awaiting)
-      </p>
-      <h1 className="address" style={{ color: 'white' }}>
+      </div>
+        <h1 className="address" style={{ color: 'white' }}>
         Department of Information Technology <br /> SSN College of Engineering{' '}
         <br /> Rajiv Gandhi Salai, Kalavakkam - 603 110 <br /> Chennai,
         Tamilnadu, India.
       </h1>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <img src="/springer.jpeg" alt="Springer" width={320} height={118} />
+          <p className="subtext">
+            IFIP AICT series <br /> (approval awaiting)
+          </p>
+        </div>
+      </div>
+
       {/* <div className="btnContainer">
         <button>Brochure</button>
         <button>Paper Submission</button>

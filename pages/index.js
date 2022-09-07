@@ -3,16 +3,16 @@ import Footer from '../components/Footer';
 import NavBar from '../components/Navbar';
 import HomeSection from '../components/Home';
 import Conference from '../components/Conference';
-import AboutUs from '../components/AboutUs';
 import Committee from '../components/Committee';
 import CallForPaper from '../components/CallForPaper';
-import Submission from '../components/Submission';
+// import Submission from '../components/Submission';
 import Speakers from '../components/Speakers';
 import Authors from '../components/Authors';
 import Registrations from '../components/Registrations';
 import Archive from '../components/Archive';
 import ImportantDates from '../components/ImportantDates';
 import Contact from '../components/Contact';
+import Workshop from '../components/Workshop';
 
 export default function Home() {
   return (
@@ -30,10 +30,10 @@ export default function Home() {
       <Conference />
       <ImportantDates />
       <CallForPaper />
-      <Submission />
+      {/* <Submission /> */}
       <Committee />
       <Archive />
-      <AboutUs />
+      <Workshop />
       <Speakers />
       <Authors />
       <Registrations />
