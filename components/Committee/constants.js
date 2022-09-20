@@ -20,7 +20,7 @@ export const programCommittee = [
     description: 'University of Reims Champagne-Ardenne, France',
     image: 'https://icccsp.com/img/eunika.jpeg',
   },
-  
+
   {
     name: 'Xavier Fernando (Chair)',
     title: 'Professor, Dept. of Electrical & Computer Engineering',
@@ -37,7 +37,7 @@ export const programCommittee = [
     name: 'Kun-Chan Lan',
     title: 'Professor, Dept. of Computer Science and Information Engineering',
     description: 'National Cheng Kung University, Taiwan',
-    image: 'https://icccsp.com/img/kun_chan.png',
+    image: 'https://icccsp.com/img/kun_chan.jpeg',
   },
   {
     name: 'LEUNG, Yiu Wing',
@@ -49,7 +49,7 @@ export const programCommittee = [
     name: 'Ahmed Banafa',
     title: 'Professor, Dept. of General Engineering',
     description: 'San Jose State University, San Francisco',
-    image: 'https://icccsp.com/img/ahmed_banafa.png',
+    image: 'https://icccsp.com/img/ahmed_banafa.jpeg',
   },
   {
     name: 'Vijay John',
@@ -79,7 +79,7 @@ export const programCommittee = [
     name: 'Anand Kumar M',
     title: 'Assistant professor, Dept of Information Technology',
     description: 'National Institute of Technology (NITK), Surathkal',
-    image: 'https://icccsp.com/img/anand_kumar.png',
+    image: 'https://icccsp.com/img/anand_kumar.jpeg',
   },
   {
     name: 'Santhosh C K',
@@ -91,7 +91,7 @@ export const programCommittee = [
     name: 'Srinivasan R',
     title: 'Professor, Dept. of Information Technology',
     description: 'SSN College of Engineering, Chennai, India',
-    image: 'https://icccsp.com/img/Dr.Srinivasan.jpeg',
+    image: 'https://icccsp.com/img/srinivasan.jpeg',
   },
   {
     name: 'Shahina A',
@@ -103,11 +103,11 @@ export const programCommittee = [
 
 export const organizingCommittee = [
   { name: 'Malathy E M', image: 'https://icccsp.com/img/malathy.jpeg' },
+  { name: 'Gayathri K S', image: 'https://icccsp.com/img/gayathri.jpeg' },
   {
     name: 'Sivamurugan V',
-    image: 'https://icccsp.com/img/sivamurugan.jpeg',
+    image: 'https://icccsp.com/img/vs.jpg',
   },
-  { name: 'Uthayan K R', image: 'https://icccsp.com/img/uthayan.jpg' },
-  { name: 'Gayathri K S', image: 'https://icccsp.com/img/gayathri.jpeg' },
+  { name: 'Uthayan K R', image: 'https://icccsp.com/img/uthayan.jpeg' },
 ];
 

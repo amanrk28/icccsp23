@@ -14,6 +14,7 @@ import '../styles/archive.scss';
 import '../styles/importantDates.scss';
 import '../styles/contact.scss';
 import '../styles/workshop.scss';
+import 'animate.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

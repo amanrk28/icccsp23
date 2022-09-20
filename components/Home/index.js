@@ -15,22 +15,22 @@ export default function HomeSection() {
           AI, Knowledge Engineering and IoT for Smart Systems
         </b>
       </p>
-      <div style={{display: 'flex', justifyContent: 'space-between', width: '100%'}}>
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <img src="https://icccsp.com/img/ifip.jpeg" alt="Springer" height={118} />
-      <h1 className="ifip" style={{ color: 'white' }}>
-        IFIP Event Number: <span>04695</span>
-      </h1>
-      </div>
+          <h1 className="ifip" style={{ color: 'white' }}>
+            IFIP Event Number: <span>04695</span>
+          </h1>
+        </div>
         <h1 className="address" style={{ color: 'white' }}>
-        Department of Information Technology <br /> SSN College of Engineering{' '}
-        <br /> Rajiv Gandhi Salai, Kalavakkam - 603 110 <br /> Chennai,
-        Tamilnadu, India.
-      </h1>
+          Department of Information Technology <br /> SSN College of Engineering{' '}
+          <br /> Rajiv Gandhi Salai, Kalavakkam - 603 110 <br /> Chennai,
+          Tamilnadu, India.
+        </h1>
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
           <img src="https://icccsp.com/img/springer.jpeg" alt="Springer" width={320} height={118} />
           <p className="subtext">
-            IFIP AICT series <br /> (approval awaiting)
+            IFIP AICT series <br /> <span className="animate__animated animate__flash animate__slower animate__infinite"> (Approved)</span>
           </p>
         </div>
       </div>

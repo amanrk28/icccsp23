@@ -2,9 +2,13 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    scroll-behavior: smooth;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+    Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 72px;
 }
 
 a {
@@ -14,30 +18,30 @@ a {
 
 * {
   box-sizing: border-box;
-  font-family: 'Montserrat', -apple-system, sans-serif;
+  font-family: "Montserrat", -apple-system, sans-serif;
 }
 
-h1{
-  color: #0765B0;
+h1 {
+  color: #0765b0;
 }
 
-h4{
+h4 {
   font-size: large;
   text-align: center;
   color: #666;
 }
 
-.text-center{
+.text-center {
   text-align: center;
 }
 
-.row{
+.row {
   display: flex;
   align-items: center;
 }
-.row-reverse{
+.row-reverse {
   flex-direction: row-reverse;
 }
-.timeline-card-content{
+.timeline-card-content {
   padding: 12px;
 }

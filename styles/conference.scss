@@ -1,6 +1,5 @@
 .confContainer {
   padding: 2% 5%;
-  padding-top: 120px;
   > h1 {
     font-size: 40px;
   }
@@ -9,5 +8,13 @@
     line-height: 30px;
     max-width: 90%;
     text-align: justify;
+  }
+  .ifip-text {
+    font-size: 24px;
+    font-weight: 500;
+    span {
+      font-size: 28px;
+      font-weight: 600;
+    }
   }
 }
