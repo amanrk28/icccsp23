@@ -22,7 +22,7 @@ export const SPEAKERS = [
     profile: 'https://vsubhashini.github.io/',
   },
   {
-    image: 'https://icccsp.com/img/kun_chan.png',
+    image: 'https://icccsp.com/img/kun_chan.jpeg',
     name: 'Kun-Chan Lan',
     designation:
       'Professor, Dept. of Computer Science and Information Engineering',
