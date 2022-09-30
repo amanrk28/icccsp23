@@ -1,6 +1,6 @@
 const items = [
   { date: ['20', 'th', ' June 2022'], event: 'Paper Submission Opens from' },
-  { date: ['25', 'th', ' Sep 2022'], event: 'Paper Submission Deadline' },
+  { date: ['10', 'th', ' Oct 2022'], event: 'Paper Submission Deadline' },
   { date: ['30', 'th', ' Oct 2022'], event: 'Acceptance Notification' },
   { date: ['15', 'th', ' Nov 2022'], event: 'Early Bird Registration' },
   { date: ['30', 'th', ' Nov 2022'], event: 'Camera-ready Copy Submission' },
