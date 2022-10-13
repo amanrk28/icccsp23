@@ -1,3 +1,4 @@
+import Image from 'next/image'
 export default function Authors() {
   return (
     <div className="authorsContainer" id="authors">
@@ -5,6 +6,13 @@ export default function Authors() {
         <b>AUTHORS</b>
       </h1>
       <br />
+      <div className="talk-sponsors">
+        <h1 className="text-center animate__animated  animate__infinite animate__heartBeat" style={{ color: '#d11', fontSize: 32 }}>Technical Talk Sponsors</h1>
+        <div className="sponsor-images">
+          <Image width={318} height={159} src="https://icccsp.com/img/ibm.png" alt="IBM" />
+          <Image width={355} height={142} src="https://icccsp.com/img/honeywell.png" alt="Honeywell" />
+        </div>
+      </div>
       <h3>Paper Submission and Guidelines</h3>
       <p>
         Authors can contribute regular paper with scientific / technical
@@ -54,12 +62,12 @@ export default function Authors() {
           https://easychair.org/conferences/?conf=icccsp2023
         </a>
       </p>
-      <p style={{fontWeight: 600}}>
+      <p style={{ fontWeight: 600 }}>
         At least one author of each accepted paper must register for the
         conference and present the paper.
       </p>
     </div>
-    
+
   );
-  
+
 }

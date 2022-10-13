@@ -1,6 +1,6 @@
 const items = [
   { date: ['20', 'th', ' June 2022'], event: 'Paper Submission Opens from' },
-  { date: ['10', 'th', ' Oct 2022'], event: 'Paper Submission Deadline' },
+  { date: ['21', 'th', ' Oct 2022'], event: 'Paper Submission Deadline' },
   { date: ['30', 'th', ' Oct 2022'], event: 'Acceptance Notification' },
   { date: ['15', 'th', ' Nov 2022'], event: 'Early Bird Registration' },
   { date: ['30', 'th', ' Nov 2022'], event: 'Camera-ready Copy Submission' },
@@ -22,7 +22,7 @@ export default function ImportantDates() {
           <tr key={item.event}>
             <td>{item.event}</td>
             <td>
-              {idx === 1 && <span><s>10<sup>th</sup> Sep</s> &nbsp;&nbsp;</span>}
+              {idx === 1 && <span><s>10<sup>th</sup> Oct</s> &nbsp;&nbsp;</span>}
               {idx === 2 && <span><s>15<sup>th</sup> Oct</s> &nbsp;&nbsp;</span>}
               {item.date[0]}
               <sup>{item.date[1]}</sup>
