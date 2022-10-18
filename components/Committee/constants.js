@@ -111,3 +111,8 @@ export const organizingCommittee = [
   { name: 'Uthayan K R', image: 'https://icccsp.com/img/uthayan.jpeg' },
 ];
 
+export const financeCommittee = [];
+export const registrationCommittee = [];
+export const transportCommittee = [];
+export const hospitalityCommittee = [];
+export const photographyCommittee = [];

@@ -3,7 +3,7 @@ import React from 'react';
 export default function Contact() {
   return (
     <div id="contact" className="contactContainer">
-      <h1 className="text-center">CONTACT US</h1>
+      <h1 className="text-center"><b>CONTACT US</b></h1>
       <div className="contactDetails">
         <p style={{ fontSize: '24px', fontWeight: 600 }}>Address</p>
         <p>The ICCCSP 23 team</p>

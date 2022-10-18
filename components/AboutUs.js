@@ -7,7 +7,7 @@ export default function AboutUs() {
         <b>ABOUT US</b>
       </h1>
       <br />
-      <div className="row">
+      <div className="aboutus-row">
         <div>
           <h1>
             <b>Our College</b>
@@ -37,7 +37,7 @@ export default function AboutUs() {
         </div>
       </div>
       <hr />
-      <div className="row row-reverse">
+      <div className="aboutus-row aboutus-row-reverse">
         <div>
           <h1>
             <b>Our IT Department</b>

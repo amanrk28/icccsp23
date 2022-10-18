@@ -5,14 +5,15 @@ export default function Conference() {
   return (
     <>
       <div className="confContainer" id="conference">
-        <h1 className="text-center">ABOUT ICCCSP 2023</h1>
-        <div className="row" style={{ justifyContent: 'space-between', width: '100%' }}>
-          <div className="row" style={{ flexDirection: 'column' }}>
+        <h1 className="text-center"><b>ABOUT ICCCSP 2023</b></h1>
+        <div className="aboutus-row">
+          <div style={{ flexDirection: 'column' }}>
             <img src="https://icccsp.com/img/ifip.jpeg" alt="IFIP" height={118} />
             <h2 className="text-center">Event number: 04695</h2>
           </div>
-          <div className="row" style={{ flexDirection: 'column' }}>
-            <img src="https://icccsp.com/img/springer.jpeg" alt="Springer" />
+          <div style={{ flexDirection: 'column' }}>
+            <img src="https://icccsp.com/img/springer.jpeg" alt="Springer" width={320} height={118} />
+
             <h2 className="text-center ifip-text">IFIP AICT Series
               <span className="animate__animated animate__flash animate__slower animate__infinite"> (Approved)</span></h2>
           </div>

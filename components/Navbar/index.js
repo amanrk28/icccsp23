@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { LINKS } from './constants';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 
 export default function NavBar() {
   const [changeNavColor, setChangeNavColor] = useState(false);
@@ -19,22 +20,27 @@ export default function NavBar() {
 
   return (
     <div className={`navContainer ${changeNavColor ? 'navChange' : ''}`}>
-      <Link href="/">
-        <a>
-          <img src="https://icccsp.com/img/ssn1.png" alt="SSN" loading="lazy" />
-        </a>
-      </Link>
-      <ul>
-        {LINKS.map(link => (
-          <li key={link.href}>
-            <Link href={'#' + link.href}>
-              <a className={`${changeNavColor ? 'navChange' : ''}`}>
-                {link.name}
-              </a>
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <Navbar collapseOnSelect expand="lg" style={{ width: '100%' }}>
+        <Container style={{ width: '100%', justifyContent: 'space-between' }}>
+          <Link href="/" passHref>
+            <Navbar.Brand as="a">
+              <img src="https://icccsp.com/img/ssn1.png" alt="SSN" loading="lazy" />
+            </Navbar.Brand>
+          </Link>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav" style={{ width: '100%' }}>
+            <Nav style={{ width: '100%' }}>
+              {LINKS.map(link => (
+                <Link href={'#' + link.href} key={link.href} passHref>
+                  <Nav.Link className={`${changeNavColor ? 'navChange' : ''}`}>
+                    {link.name}
+                  </Nav.Link>
+                </Link>
+              ))}
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     </div>
   );
 }

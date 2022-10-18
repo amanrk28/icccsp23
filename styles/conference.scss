@@ -1,13 +1,19 @@
 .confContainer {
-  padding: 2% 5%;
+  padding: 32px 5%;
   > h1 {
     font-size: 40px;
   }
   p {
     font-size: 18px;
     line-height: 30px;
-    max-width: 90%;
     text-align: justify;
+  }
+  .aboutus-row {
+    justify-content: space-between;
+    width: 100%;
+    @media screen and (max-width: 992px) {
+      flex-direction: column;
+    }
   }
   .ifip-text {
     font-size: 24px;

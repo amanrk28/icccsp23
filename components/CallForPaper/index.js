@@ -4,7 +4,7 @@ export default function CallForPaper() {
   return (
     <div className="callForPaperContainer" id="callforpaper">
       <div>
-        <h1>TOPICS OF INTEREST</h1>
+        <h1><b>TOPICS OF INTEREST</b></h1>
         <br />
       </div>
       <p style={{ textAlign: 'center' }}>

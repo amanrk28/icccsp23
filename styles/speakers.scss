@@ -1,6 +1,24 @@
 .speakersContainer {
-  padding: 2% 5%;
+  padding: 32px 5%;
   color: #333;
+  .talk-sponsors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    .sponsor-images {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 100%;
+      padding: 1rem;
+      @media screen and (max-width: 900px) {
+        flex-direction: column;
+      }
+    }
+  }
+
   h1 {
     text-align: center;
   }
@@ -11,7 +29,7 @@
     margin-top: 2%;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    .card {
+    .card-item {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;

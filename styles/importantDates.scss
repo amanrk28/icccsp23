@@ -1,5 +1,5 @@
 .importantDatesContainer {
-  padding: 2% 5%;
+  padding: 32px 5%;
   color: #333;
   table {
     border-collapse: collapse;
@@ -38,5 +38,11 @@
   }
   td:last-child {
     border-bottom-right-radius: 8px;
+  }
+  td p {
+    margin: 0;
+    &.red-text {
+      color: red;
+    }
   }
 }
