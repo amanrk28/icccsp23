@@ -20,16 +20,16 @@ export default function NavBar() {
 
   return (
     <div className={`navContainer ${changeNavColor ? 'navChange' : ''}`}>
-      <Navbar collapseOnSelect expand="lg" style={{ width: '100%' }}>
-        <Container style={{ width: '100%', justifyContent: 'space-between' }}>
+      <Navbar collapseOnSelect expand="xl">
+        <Container>
           <Link href="/" passHref>
-            <Navbar.Brand as="a">
+            <Navbar.Brand as="a" className="logo">
               <img src="https://icccsp.com/img/ssn1.png" alt="SSN" loading="lazy" />
             </Navbar.Brand>
           </Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav" style={{ width: '100%' }}>
-            <Nav style={{ width: '100%' }}>
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav>
               {LINKS.map(link => (
                 <Link href={'#' + link.href} key={link.href} passHref>
                   <Nav.Link className={`${changeNavColor ? 'navChange' : ''}`}>
