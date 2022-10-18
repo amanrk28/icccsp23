@@ -19,12 +19,20 @@ export default function NavBar() {
   });
 
   return (
-    <div className={`navContainer ${changeNavColor ? 'navChange' : ''}`}>
+    <div
+      className={`navContainer navChange-mobile ${
+        changeNavColor ? 'navChange' : ''
+      }`}
+    >
       <Navbar collapseOnSelect expand="xl">
         <Container>
           <Link href="/" passHref>
             <Navbar.Brand as="a" className="logo">
-              <img src="https://icccsp.com/img/ssn1.png" alt="SSN" loading="lazy" />
+              <img
+                src="https://icccsp.com/img/ssn1.png"
+                alt="SSN"
+                loading="lazy"
+              />
             </Navbar.Brand>
           </Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

@@ -35,6 +35,9 @@ export default function HomeSection() {
         </div>
       </div>
 
+      <h3 style={{ textAlign: 'center' }}>
+        Scopus indexed publication in IFIP AICT SPRINGER SERIES
+      </h3>
       {/* <div className="btnContainer">
         <button>Brochure</button>
         <button>Paper Submission</button>
