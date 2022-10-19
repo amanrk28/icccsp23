@@ -20,9 +20,8 @@ export default function NavBar() {
 
   return (
     <div
-      className={`navContainer navChange-mobile ${
-        changeNavColor ? 'navChange' : ''
-      }`}
+      className={`navContainer navChange-mobile ${changeNavColor ? 'navChange' : ''
+        }`}
     >
       <Navbar collapseOnSelect expand="xl">
         <Container>
