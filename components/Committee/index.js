@@ -12,7 +12,9 @@ export default function Committee() {
   return (
     <div className="committeeContainer" id="committee">
       <div className="section-wrapper">
-        <h1><b>ADVISORY COMMITTEE</b></h1>
+        <h1>
+          <b>ADVISORY COMMITTEE</b>
+        </h1>
         <div className="aboutus-row cards-wrapper">
           {advisoryCommittee.map(item => (
             <div className="card-item advisory" key={item.name}>
@@ -75,7 +77,72 @@ export default function Committee() {
           ))}
         </div>
       </div>
-      <div className="section-wrapper">
+      <div className="section-wrapper grid-container">
+        <div>
+          <h2 style={{ color: '#0765b0' }}>
+            <b>
+              SESSION MANAGEMENT <br /> COMMITTEE
+            </b>
+          </h2>
+          <div style={{ fontSize: '25px', marginTop: '10px' }} className="flex">
+            <div>T. Sree Sharmila </div>
+            <div>S. Chithra </div>
+            <div>N. Bhalaji </div>
+            <div>S. Karthika </div>
+            <div>S. Mohanavalli </div>
+          </div>
+        </div>
+        <div >
+          <h2 style={{ color: '#0765b0', textTransform: 'uppercase' }}>
+            <b>Registration Committee</b>
+          </h2>
+
+          <div style={{ fontSize: '25px', marginTop: '10px' }}>
+            <div>P. Vasuki </div>
+            <div>N. Sripriya </div>
+            <div>I. Joe Louis Paul </div>
+            <div>V. Thanikachalam </div>
+            <div>S.Sasirekha </div>
+            <div>N. Radha </div>
+          </div>
+        </div>
+        <div>
+          <h2
+            style={{
+              color: '#0765b0',
+              textTransform: 'uppercase',
+            }}
+          >
+            <b>Hospitality Committee</b>
+          </h2>
+          <div style={{ fontSize: '25px', marginTop: '10px' }} className="flex">
+            <div>R. Swathika </div>
+            <div>S. Uma Maheswari </div>
+            <div>J. Sofia Jennifer </div>
+            <div>E. Suganya </div>
+          </div>
+        </div>
+        <div>
+          <h2
+            style={{
+              color: '#0765b0',
+              textTransform: 'uppercase',
+            }}
+          >
+            <b>
+              Logistics & Photography <br /> Committee
+            </b>
+          </h2>
+          <div style={{ fontSize: '25px', marginTop: '10px' }} className="flex">
+            <div>A. Sandana Karuppan </div>
+            <div>V. Arul Kumar </div>
+            <div>K. Kabilan </div>
+            <div>Ashwinth Janarthanan </div>
+            <div>B. Sendhil Kumar </div>
+          </div>
+        </div>
+      </div>
+      {/* <div className="section-wrapper">
         <h1>
           <b>SPONSOR COMMITTEE</b>
         </h1>
@@ -149,7 +216,7 @@ export default function Committee() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
