@@ -4,7 +4,6 @@ export const LINKS = [
   { name: 'Important Dates', href: 'important_dates' },
   { name: 'Call for Paper', href: 'callforpaper' },
   { name: 'Committee', href: 'committee' },
-  { name: 'History', href: 'archive' },
   // { name: 'Submission', href: 'submission' },
   // { name: 'About Us', href: 'about-us' },
   { name: 'Pre-conf Workshop', href: 'workshop' },
@@ -12,4 +11,5 @@ export const LINKS = [
   { name: 'For Authors', href: 'authors' },
   { name: 'Registration', href: 'registration' },
   { name: 'Contact', href: 'contact' },
+  { name: 'History', href: 'archive' },
 ];
