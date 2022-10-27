@@ -32,12 +32,12 @@ export default function Home() {
       <CallForPaper />
       {/* <Submission /> */}
       <Committee />
-      <Archive />
       <Workshop />
       <Speakers />
       <Authors />
       <Registrations />
       <Contact />
+      <Archive />
       <Footer />
     </>
   );
