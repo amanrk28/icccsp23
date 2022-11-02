@@ -29,4 +29,11 @@ export const SPEAKERS = [
     description: 'National Cheng Kung University, Taiwan',
     profile: 'https://www.csie.ncku.edu.tw/~klan/',
   },
+  {
+    image: 'https://icccsp.com/img/soundari.jpeg',
+    name: 'Soundari Arunachalam',
+    designation: 'Director R&D',
+    description: 'Honeywell Technology Solutions',
+    profile: 'https://www.csie.ncku.edu.tw/~klan/',
+  },
 ];
