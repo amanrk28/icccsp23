@@ -12,14 +12,14 @@ export default function Authors() {
         significant advances in field of Artificial Intelligence, Knowledge
         Engineering and IoT.  Authors should write their papers in British
         English. The paper should not exceed 15 pages including references.
-        <br /><br /> The submission should be novel, plagiarism free and not
+        <br />
+        <br /> The submission should be novel, plagiarism free and not
         simultaneously submitted to another conference. Submissions must include
         title, abstract, list of keywords, introduction, literature review,
         methodology, results / discussion, and conclusion. All submissions will
-        be subjected to a review process by at least three
-        reviewers. Authors should abide Springer’s authors’ guidelines and use
-        its proceedings templates, either LaTeX or Word, for the preparation
-        of manuscripts.
+        be subjected to a review process by at least three reviewers. Authors
+        should abide Springer’s authors’ guidelines and use its proceedings
+        templates, either LaTeX or Word, for the preparation of manuscripts.
       </p>
       <h3>Templates</h3>
       <a href="https://icccsp.com/WordTemplates.zip" download>
@@ -42,8 +42,16 @@ export default function Authors() {
         </span>
         <br />
       </p>
-      <h3>Submission</h3>
-      <p>
+      <h3 style={{ marginBottom: '15px', marginTop: '15px' }}>
+        Submission{' '}
+        <span
+          style={{ color: 'red' }}
+          className="animate__animated animate__flash animate__slower animate__infinite"
+        >
+          (Closed)
+        </span>
+      </h3>
+      {/* <p>
         The manuscript should be submitted in PDF format using the conference
         management system Easychair, in the following link: <br />
         <a
@@ -53,13 +61,11 @@ export default function Authors() {
         >
           https://easychair.org/conferences/?conf=icccsp2023
         </a>
-      </p>
+      </p> */}
       <p style={{ fontWeight: 600 }}>
         At least one author of each accepted paper must register for the
         conference and present the paper.
       </p>
     </div>
-
   );
-
 }
