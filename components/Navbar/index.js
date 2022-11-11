@@ -20,8 +20,9 @@ export default function NavBar() {
 
   return (
     <div
-      className={`navContainer navChange-mobile ${changeNavColor ? 'navChange' : ''
-        }`}
+      className={`navContainer navChange-mobile ${
+        changeNavColor ? 'navChange' : ''
+      }`}
     >
       <Navbar collapseOnSelect expand="xl">
         <Container>
@@ -37,13 +38,30 @@ export default function NavBar() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
-              {LINKS.map(link => (
-                <Link href={'#' + link.href} key={link.href} passHref>
-                  <Nav.Link className={`${changeNavColor ? 'navChange' : ''}`}>
-                    {link.name}
-                  </Nav.Link>
-                </Link>
-              ))}
+              {LINKS.map(link => {
+                if (link.name === 'Registration') {
+                  return (
+                    <Link href={'#' + link.href} key={link.href} passHref>
+                      <Nav.Link
+                        className={`${changeNavColor ? 'navChange' : ''}`}
+                        style={{ color: 'red' }}
+                      >
+                        {link.name}
+                      </Nav.Link>
+                    </Link>
+                  );
+                } else {
+                  return (
+                    <Link href={'#' + link.href} key={link.href} passHref>
+                      <Nav.Link
+                        className={`${changeNavColor ? 'navChange' : ''}`}
+                      >
+                        {link.name}
+                      </Nav.Link>
+                    </Link>
+                  );
+                }
+              })}
             </Nav>
           </Navbar.Collapse>
         </Container>

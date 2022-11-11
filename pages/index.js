@@ -13,6 +13,7 @@ import Archive from '../components/Archive';
 import ImportantDates from '../components/ImportantDates';
 import Contact from '../components/Contact';
 import Workshop from '../components/Workshop';
+import PaymentDetails from '../components/PaymentDetails';
 
 export default function Home() {
   return (
@@ -36,6 +37,7 @@ export default function Home() {
       <Speakers />
       <Authors />
       <Registrations />
+      <PaymentDetails />
       <Contact />
       <Archive />
       <Footer />

@@ -10,6 +10,7 @@ export const LINKS = [
   { name: 'Speakers', href: 'speakers' },
   { name: 'For Authors', href: 'authors' },
   { name: 'Registration', href: 'registration' },
+  { name: 'Payment', href: 'payment' },
   { name: 'Contact', href: 'contact' },
   { name: 'History', href: 'archive' },
 ];
