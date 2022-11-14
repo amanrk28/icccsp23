@@ -4,6 +4,11 @@ export default function PaymentDetails() {
       <h1 className="text-center">
         <b>PAYMENT DETAILS</b>
       </h1>
+      <div className="row my-4">
+        <a href="https://rzp.io/l/ICCCSP23" target="_blank" rel="noopener noreferrer" className="btn btn-primary col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-0 text-decoration-none text-white">
+          Pay Now
+        </a>
+      </div>
       <h4 style={{ textAlign: 'left', margin: '40px 0px 20px 0px' }}>
         INSTRUCTIONS TO PARTICIPANT:
       </h4>

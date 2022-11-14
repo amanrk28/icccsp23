@@ -4,7 +4,7 @@ const items = [
     date: ['Submission Closed'],
     event: 'Paper Submission Deadline',
   },
-  { date: ['05', 'th', ' Nov 2022'], event: 'Acceptance Notification' },
+  { date: ['15', 'th', ' Nov 2022'], event: 'Acceptance Notification Starts' },
   { date: ['30', 'th', ' Nov 2022'], event: 'Early Bird Registration' },
   { date: ['30', 'th', ' Nov 2022'], event: 'Camera-ready Copy Submission' },
   { date: ['4', 'th', ' Jan 2023'], event: 'Pre-Conference Workshop' },
@@ -27,6 +27,34 @@ export default function ImportantDates() {
           <tr key={item.event}>
             <td>{item.event}</td>
             <td>
+              {idx === 1 && (
+                <>
+                  <span>
+                    <s>
+                      10<sup>th</sup> Sept
+                    </s>{' '}
+                    &nbsp;&nbsp;
+                  </span>
+                  <span>
+                    <s>
+                      10<sup>th</sup> Oct
+                    </s>{' '}
+                    &nbsp;&nbsp;
+                  </span>
+                  <span>
+                    <s>
+                      21<sup>th</sup> Oct
+                    </s>{' '}
+                    &nbsp;&nbsp;
+                  </span>
+                  <span>
+                    <s>
+                      10<sup>th</sup> Nov
+                    </s>{' '}
+                    &nbsp;&nbsp;
+                  </span>
+                </>
+              )}
               {idx === 2 && (
                 <>
                   <span>
