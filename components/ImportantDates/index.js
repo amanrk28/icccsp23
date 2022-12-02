@@ -5,8 +5,8 @@ const items = [
     event: 'Paper Submission Deadline',
   },
   { date: ['15', 'th', ' Nov 2022'], event: 'Acceptance Notification Starts' },
-  { date: ['30', 'th', ' Nov 2022'], event: 'Early Bird Registration' },
-  { date: ['30', 'th', ' Nov 2022'], event: 'Camera-ready Copy Submission' },
+  { date: ['7', 'th', ' Dec 2022'], event: 'Early Bird Registration' },
+  { date: ['10', 'th', ' Dec 2022'], event: 'Camera-ready Copy Submission' },
   { date: ['4', 'th', ' Jan 2023'], event: 'Pre-Conference Workshop' },
   { date: ['5 - 6', 'th', ' Jan 2023'], event: 'Conference ' },
 ];
@@ -76,6 +76,22 @@ export default function ImportantDates() {
                   <span>
                     <s>
                       15<sup>th</sup> Nov
+                    </s>{' '}
+                    &nbsp;&nbsp;
+                  </span>
+                  <span>
+                    <s>
+                      30<sup>th</sup> Nov
+                    </s>{' '}
+                    &nbsp;&nbsp;
+                  </span>
+                </>
+              )}
+              {idx === 4 && (
+                <>
+                  <span>
+                    <s>
+                      30<sup>th</sup> Nov
                     </s>{' '}
                     &nbsp;&nbsp;
                   </span>
