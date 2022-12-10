@@ -6,10 +6,22 @@ const items = [
   },
   { date: ['15', 'th', ' Nov 2022'], event: 'Acceptance Notification Starts' },
   { date: ['7', 'th', ' Dec 2022'], event: 'Early Bird Registration' },
+  { date: ['12', 'th', ' Dec 2022'], event: 'Registration closes on' },
   { date: ['10', 'th', ' Dec 2022'], event: 'Camera-ready Copy Submission' },
   { date: ['4', 'th', ' Jan 2023'], event: 'Pre-Conference Workshop' },
   { date: ['5 - 6', 'th', ' Jan 2023'], event: 'Conference ' },
 ];
+
+const StrikedOutDate = ({ date }) => {
+  return (
+    <span>
+      <s>
+        {date[0]}<sup>{date[1]}</sup>{date[2]}
+      </s>{' '}
+      &nbsp;&nbsp;
+    </span>
+  )
+}
 
 export default function ImportantDates() {
   return (
@@ -29,79 +41,37 @@ export default function ImportantDates() {
             <td>
               {idx === 1 && (
                 <>
-                  <span>
-                    <s>
-                      10<sup>th</sup> Sept
-                    </s>{' '}
-                    &nbsp;&nbsp;
-                  </span>
-                  <span>
-                    <s>
-                      10<sup>th</sup> Oct
-                    </s>{' '}
-                    &nbsp;&nbsp;
-                  </span>
-                  <span>
-                    <s>
-                      21<sup>th</sup> Oct
-                    </s>{' '}
-                    &nbsp;&nbsp;
-                  </span>
-                  <span>
-                    <s>
-                      10<sup>th</sup> Nov
-                    </s>{' '}
-                    &nbsp;&nbsp;
-                  </span>
+                  <StrikedOutDate date={[10, 'th', 'Sept']} />
+                  <StrikedOutDate date={[10, 'th', 'Oct']} />
+                  <StrikedOutDate date={[21, 'th', 'Oct']} />
+                  <StrikedOutDate date={[10, 'th', 'Nov']} />
                 </>
               )}
               {idx === 2 && (
                 <>
-                  <span>
-                    <s>
-                      15<sup>th</sup> Oct
-                    </s>{' '}
-                    &nbsp;&nbsp;
-                  </span>
-                  <span>
-                    <s>
-                      30<sup>th</sup> Oct
-                    </s>{' '}
-                    &nbsp;&nbsp;
-                  </span>
+                  <StrikedOutDate date={[15, 'th', 'Oct']} />
+                  <StrikedOutDate date={[30, 'th', 'Oct']} />
                 </>
               )}
               {idx === 3 && (
                 <>
-                  <span>
-                    <s>
-                      15<sup>th</sup> Nov
-                    </s>{' '}
-                    &nbsp;&nbsp;
-                  </span>
-                  <span>
-                    <s>
-                      30<sup>th</sup> Nov
-                    </s>{' '}
-                    &nbsp;&nbsp;
-                  </span>
+                  <StrikedOutDate date={[15, 'th', 'Nov']} />
+                  <StrikedOutDate date={[30, 'th', 'Nov']} />
                 </>
               )}
-              {idx === 4 && (
-                <>
-                  <span>
-                    <s>
-                      30<sup>th</sup> Nov
-                    </s>{' '}
-                    &nbsp;&nbsp;
-                  </span>
-                </>
+              {idx === 5 && (
+                <StrikedOutDate date={[30, 'th', 'Nov']} />
               )}
-              <p className={[1, 2, 3].includes(idx) ? 'red-text' : ''}>
+              <p className={[1, 2, 3, 5].includes(idx) ? 'red-text' : ''}>
                 {item.date[0]}
                 <sup>{item.date[1]}</sup>
                 {item.date[2]}
               </p>
+              {idx === 3 && (
+                <span style={{ color: 'red' }} className="animate__animated animate__flash animate__slower animate__infinite">
+                  Early bird Registration Closed
+                </span>
+              )}
             </td>
           </tr>
         ))}
