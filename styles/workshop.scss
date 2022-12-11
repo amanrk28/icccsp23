@@ -7,3 +7,26 @@
     font-weight: 500;
   }
 }
+
+.workshopGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  text-align: center;
+  margin-top: 50px;
+  
+  p {
+    font-size: 14px;
+    line-height: normal;
+    text-align: justify;
+  }
+
+  
+}
+
+@media (max-width: 800px) {
+  .workshopGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
