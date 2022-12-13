@@ -82,7 +82,9 @@ export default function Workshop() {
           </div>
         </div>
         <div>
-          <h3>Text analysis and Information Extraction & Retrieval</h3>
+          <h3>
+            Text analysis and Information Extraction & Retrieval (TIER 2023)
+          </h3>
           <p>
             The Seventh Edition of workshop (TIER-2023) seeks to further this
             effort and foster growth and excellence in the emerging NLP
@@ -97,16 +99,27 @@ export default function Workshop() {
             tasks.
           </p>
           <p>
-            <b>Faculty Coordinators :</b> 1) Dr. Thenmozhi , ASP, SSNCE. 2) Dr.
-            N. Sripriya, ASP, SSNCE.
+            <b>Convener:</b> Dr. Aravindan Chandrabose, Professor & Head, IT
+            Department.
+            <br />
+            <b>SSNCE Faculty Coordinators:</b> Dr. D. Thenmozhi, , Dr. B.
+            Senthilkumar Dr. N. Sripriya, Dr. S. Rajalakhsmi, Faculty, SSNCE
+          </p>
+          <p>
+            <b>
+              Workshop Website:{' '}
+              <a href="https://sites.google.com/ssn.edu.in/tier-2023/home?authuser=0">
+                TIER-2023
+              </a>
+            </b>
           </p>
           <h4>Workshop Speaker</h4>
           <div style={{ marginTop: '20px' }}>
             <Image
-              src="/WorkshopSpeakers/nlp.png"
-              alt="iot"
-              height={200}
-              width={150}
+              src="/WorkshopSpeakers/mlrg.jpg"
+              alt="mlrg"
+              height={100}
+              width={200}
             />
           </div>
         </div>
@@ -141,9 +154,14 @@ export default function Workshop() {
         </ul>
       </div>
 
+      <div style={{ fontSize: '20px' }}>
+        <b>Registration Link:</b>{' '}
+        <a href="https://forms.gle/L2cEfRDvF3i4nS2f8">Click here</a>
+      </div>
+
       <p style={{ fontSize: '20px' }}>
         <b>Payment:</b> Preconference Workshop and conference participation (
-        for Non Authors) <a href="">click here</a>
+        for Non Authors) <a href="https://rzp.io/l/ITWorkshop">Click here</a>
       </p>
 
       <p style={{ fontSize: '20px', color: '#de4f45' }}>
