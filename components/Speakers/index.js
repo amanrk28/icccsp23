@@ -9,7 +9,7 @@ export default function Speakers() {
       </h1>
       <br />
       <div className="talk-sponsors">
-        <h1 className="text-center animate__animated animate__infinite animate__slow animate__heartBeat" style={{ color: '#d11', fontSize: 32, fontWeight: 600 }}>Technical Talk Sponsors</h1>
+        <h1 className="text-center animate__animated animate__infinite animate__slow animate__heartBeat" style={{ color: '#d11', fontSize: 32, fontWeight: 600 }}>Technical Talk from</h1>
         <div className="sponsor-images">
           <Image width={318} height={159} src="https://icccsp.com/img/ibm.png" alt="IBM" />
           <Image width={355} height={142} src="https://icccsp.com/img/honeywell.png" alt="Honeywell" />
