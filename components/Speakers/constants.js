@@ -30,6 +30,13 @@ export const SPEAKERS = [
     profile: 'https://www.csie.ncku.edu.tw/~klan/',
   },
   {
+    name: 'Vijay John',
+    description: 'RIKEN Institute, Japan',
+    image: 'https://icccsp.com/img/vijay_john.png',
+    designation: 'Research Scientist',
+    profile: '',
+  },
+  {
     image: 'https://icccsp.com/img/soundari.jpeg',
     name: 'Soundari Arunachalam',
     designation: 'Director R&D',
