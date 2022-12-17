@@ -26,31 +26,6 @@ export default function Workshop() {
             Sree Sharmila, Associate Professor, SSNCE.
           </p>
           <h4>Workshop Speaker</h4>
-          <div style={{ marginTop: '20px' }}>
-            <Image
-              src="/WorkshopSpeakers/iot.png"
-              alt="iot"
-              height={200}
-              width={150}
-            />
-          </div>
-        </div>
-        <div>
-          <h3>IOT for Smart System</h3>
-          <p>
-            The hands-on session on IoT for smart system will integrate sensing,
-            actuation, signal processing, and control in order to make decisions
-            and create a smart environment . The session will encourage the
-            participants to implement an IoT system using programming language
-            from scratch. A brief discussion on robotics and its design from our
-            experts will trigger the interest to explore more real-time
-            applications.
-          </p>
-          <p>
-            <b>Faculty Coordinators :</b> Dr. V. Thanikachalam, Associate
-            Professor, Dr. Sofia Jennifer, Assistant Professor, SSNCE.
-          </p>
-          <h4>Workshop Speakers</h4>
           <div
             style={{
               display: 'flex',
@@ -74,6 +49,31 @@ export default function Workshop() {
             />
             <Image
               src="/WorkshopSpeakers/ai3.png"
+              alt="iot"
+              height={200}
+              width={150}
+            />
+          </div>
+        </div>
+        <div>
+          <h3>IOT for Smart System</h3>
+          <p>
+            The hands-on session on IoT for smart system will integrate sensing,
+            actuation, signal processing, and control in order to make decisions
+            and create a smart environment . The session will encourage the
+            participants to implement an IoT system using programming language
+            from scratch. A brief discussion on robotics and its design from our
+            experts will trigger the interest to explore more real-time
+            applications.
+          </p>
+          <p>
+            <b>Faculty Coordinators :</b> Dr. V. Thanikachalam, Associate
+            Professor, Dr. Sofia Jennifer, Assistant Professor, SSNCE.
+          </p>
+          <h4>Workshop Speakers</h4>
+          <div style={{ marginTop: '30px' }}>
+            <Image
+              src="/WorkshopSpeakers/iot.png"
               alt="iot"
               height={200}
               width={150}
@@ -130,7 +130,7 @@ export default function Workshop() {
         </div>
       </div>
 
-      <div>
+      <div style={{ marginTop: '30px' }}>
         <h2>Workshop Highlights</h2>
         <ul>
           <li>The workshops will be conducted in physical mode.</li>
