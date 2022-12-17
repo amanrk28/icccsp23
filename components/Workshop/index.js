@@ -11,20 +11,19 @@ export default function Workshop() {
         <div>
           <h3>Sustainable AI</h3>
           <p>
-            The primary focuses of this workshop is on recent works in
-            Neuro-Symbolic AI, Multimodal data fusion and Its applications and
-            Building AI Driven connected health for Next BillionPeople. The
-            topic Neuro-Symbolic AI will elaborate on augmenting and combining
-            the strengths of statistical AI, machine learning, symbolic
-            knowledge, and reasoning. The session on Multimodal data fusion aims
-            to share knowledge on data captures, integrates, and analyzes from
-            different sources in a way that enables a holistic understanding of
-            a learning process. The session imparts experts understanding on AI
-            in Health care that builds the pathway for future medicine
+            The primary focus of this workshop is on the recent trends on
+            neuro-symbolic AI, Multimodal data fusion and AI driven health care
+            system. The session on neurosymbolic AI is about combining the
+            strength of statistical AI, symbolic AI and reasoning. The session
+            on multimodal data fusion will give an insight on data capturing,
+            integration and analysis of data from different sources that enables
+            a holistic understanding of a learning process. The AI driven health
+            care brings an industrial experts’ working experience with AI based
+            health care system that builds the pathway for future medicine.
           </p>
           <p>
-            <b>Faculty Coordinators :</b> 1) Dr. A. Shahina , Professor, SSNCE.
-            2) Dr. T. Sree Sharmila, ASP, SSNCE
+            <b>Faculty Coordinators :</b> Dr. A. Shahina , Professor, Dr. T.
+            Sree Sharmila, Associate Professor, SSNCE.
           </p>
           <h4>Workshop Speaker</h4>
           <div style={{ marginTop: '20px' }}>
@@ -39,17 +38,17 @@ export default function Workshop() {
         <div>
           <h3>IOT for Smart System</h3>
           <p>
-            The Hands-on session on IoT for Smart System will integrate sensing,
+            The hands-on session on IoT for smart system will integrate sensing,
             actuation, signal processing, and control in order to make decisions
-            and create a smart environment . It session will encourage the
-            participants to implement an IoT system using Programming Language
-            from scratch. A brief discussion on Robotics and its design from our
+            and create a smart environment . The session will encourage the
+            participants to implement an IoT system using programming language
+            from scratch. A brief discussion on robotics and its design from our
             experts will trigger the interest to explore more real-time
-            applications
+            applications.
           </p>
           <p>
-            <b>Faculty Coordinators :</b> 1) Dr. V. Thanickachalam , ASP, SSNCE.
-            2) Dr. Sofia Jennifer, ASP, SSNCE.
+            <b>Faculty Coordinators :</b> Dr. V. Thanikachalam, Associate
+            Professor, Dr. Sofia Jennifer, Assistant Professor, SSNCE.
           </p>
           <h4>Workshop Speakers</h4>
           <div
@@ -86,24 +85,21 @@ export default function Workshop() {
             Text analysis and Information Extraction & Retrieval (TIER 2023)
           </h3>
           <p>
-            The Seventh Edition of workshop (TIER-2023) seeks to further this
-            effort and foster growth and excellence in the emerging NLP
-            community in India. This time, to cater the need for both fresh
-            enthusiasts and experts the event is organized to begin with
-            introduction to Word Embedding, Encoder-Decoder Architecture,
-            Transformer models and their implementation. This workshop aims at
-            meeting a growing interest in NLP among the faculty, researchers and
-            students. It will give them a comprehensive overview of Text
-            Analysis, IE-IR, NLP, projects/research related to the
-            aforementioned, and an awareness of the tools for working with those
-            tasks.
+            The Seventh Edition of workshop (TIER-2023) seeks to foster growth
+            and excellence in the emerging NLP community in India. This time.
+            the theme of the workshop is “Dialogue Systems” inspired by ChatGPT,
+            conversational AI system that is recently released by OpenAI. A
+            dialogue system or conversational agent is a computer system
+            intended to converse with a human. ChatGPT is based on GPT-3
+            language model that can generate responses on the fly, allowing it
+            to have more dynamic and varied conversation. This workshop includes
+            talks by experts on current trends in dialogue systems, GPT
+            architecture and a hands-on session on sentence generation using
+            GPT.
           </p>
           <p>
-            <b>Convener:</b> Dr. Aravindan Chandrabose, Professor & Head, IT
-            Department.
-            <br />
-            <b>SSNCE Faculty Coordinators:</b> Dr. D. Thenmozhi, , Dr. B.
-            Senthilkumar Dr. N. Sripriya, Dr. S. Rajalakhsmi, Faculty, SSNCE
+            <b>Faculty Coordinators:</b> Dr. C. Aravindan, Dr. D. Thenmozhi, Dr.
+            B. Senthilkumar, Dr.N. Sripriya, Dr. S. Rajalakhsmi, MLRG, SSNCE
           </p>
           <p>
             <b>
@@ -113,14 +109,23 @@ export default function Workshop() {
               </a>
             </b>
           </p>
-          <h4>Workshop Speaker</h4>
-          <div style={{ marginTop: '20px' }}>
-            <Image
-              src="/WorkshopSpeakers/mlrg.jpg"
-              alt="mlrg"
-              height={100}
-              width={200}
-            />
+          <h4>Workshop Speakers</h4>
+          <div
+            style={{
+              marginTop: '20px',
+              fontSize: '14px',
+              fontWeight: 500,
+            }}
+          >
+            <p style={{ textAlign: 'center' }}>
+              1. Ms. S. Sangeetha, NIT, Trichy, India
+            </p>
+            <p style={{ textAlign: 'center' }}>
+              2. Mr. M. Selvakumar, Saama Technologies
+            </p>
+            <p style={{ textAlign: 'center' }}>
+              3. Dr. D. Thenmozhi & Dr. N. Sripriya, SSNCE
+            </p>
           </div>
         </div>
       </div>
