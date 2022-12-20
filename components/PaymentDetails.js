@@ -13,7 +13,15 @@ export default function PaymentDetails() {
         >
           Pay Now
         </a>
-        <p> (For non author payment)</p>
+        <h4
+          style={{
+            textAlign: 'left',
+            color: 'red',
+            margin: '10px 0px 0px 0px',
+          }}
+        >
+          (For non-author conference session participation payment)
+        </h4>
       </div>
       <h4 style={{ textAlign: 'left', margin: '40px 0px 20px 0px' }}>
         INSTRUCTIONS TO PARTICIPANT:

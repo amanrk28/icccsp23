@@ -66,16 +66,8 @@ export default function Conference() {
           Society and for the 2021 edition, we have got approval from Springer -
           International Federation for Information Processing (IFIP).
         </p>
-        <div
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            width: '100%',
-          }}
-        ></div>
+        <AboutUs />
       </div>
-      <AboutUs />
     </>
   );
 }
