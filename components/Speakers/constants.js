@@ -10,8 +10,9 @@ export const SPEAKERS = [
   {
     image: 'https://icccsp.com/img/Ponnuthurai.png',
     name: 'Ponnuthurai Nagaratnam Suganthan',
-    designation: 'Professor, School for Electrical and Electronic Engineering',
-    description: 'NTU, Singapore',
+    designation: 'Research Professor',
+    description:
+      'KINDI Center for Computing Research, Qatar University, Doha, Qatar',
     profile: 'https://www3.ntu.edu.sg/home/epnsugan/',
   },
   {
