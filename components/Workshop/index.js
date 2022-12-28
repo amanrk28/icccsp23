@@ -37,19 +37,19 @@ export default function Workshop() {
           >
             <Image
               src="/WorkshopSpeakers/ai1.png"
-              alt="iot"
+              alt="ai"
               height={200}
               width={150}
             />
             <Image
               src="/WorkshopSpeakers/ai2.png"
-              alt="iot"
+              alt="ai"
               height={200}
               width={150}
             />
             <Image
               src="/WorkshopSpeakers/ai3.png"
-              alt="iot"
+              alt="ai"
               height={200}
               width={150}
             />
@@ -71,13 +71,77 @@ export default function Workshop() {
             Professor, Dr. Sofia Jennifer, Assistant Professor, SSNCE.
           </p>
           <h4>Workshop Speakers</h4>
-          <div style={{ marginTop: '30px' }}>
+          <div
+            style={{
+              display: 'flex',
+              gap: '20px',
+              flexWrap: 'wrap',
+              justifyContent: 'center',
+              marginTop: '20px',
+            }}
+          >
             <Image
               src="/WorkshopSpeakers/iot.png"
               alt="iot"
-              height={200}
-              width={150}
+              height={210}
+              width={160}
             />
+            <div>
+              <Image
+                src="/WorkshopSpeakers/iot1.png"
+                alt="ai"
+                height={140}
+                width={140}
+                style={{ borderRadius: '100%' }}
+              />
+              <div
+                style={{
+                  textAlign: 'center',
+                  fontWeight: 'bold',
+                  color: '#002446',
+                  fontSize: '14px',
+                }}
+              >
+                Dr. C. Arun Prakash
+              </div>
+              <div
+                style={{
+                  textAlign: 'center',
+                  color: '#002446',
+                  fontSize: '11px',
+                }}
+              >
+                Associate Professor, SSNCE
+              </div>
+            </div>
+            <div>
+              <Image
+                src="/WorkshopSpeakers/iot2.png"
+                alt="ai"
+                height={140}
+                width={140}
+                style={{ borderRadius: '100%' }}
+              />
+              <div
+                style={{
+                  textAlign: 'center',
+                  fontWeight: 'bold',
+                  color: '#002446',
+                  fontSize: '14px',
+                }}
+              >
+                Dr. R. Vimal Samsingh
+              </div>
+              <div
+                style={{
+                  textAlign: 'center',
+                  color: '#002446',
+                  fontSize: '11px',
+                }}
+              >
+                Associate Professor, SSNCE
+              </div>
+            </div>
           </div>
         </div>
         <div>
