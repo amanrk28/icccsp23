@@ -21,24 +21,26 @@ export default function Registration() {
           conference and present the paper.
         </p>
         <table>
-          <tr>
-            <th>Participants</th>
-            <th>Early Bird</th>
-            <th>Late Bird</th>
-          </tr>
-          {items.map(item => (
-            <tr key={item.event}>
-              <td>{item.event}</td>
-              <td>{item.date[0]}</td>
-              <td>{item.date[1]}</td>
+          <tbody>
+            <tr>
+              <th>Participants</th>
+              <th>Early Bird</th>
+              <th>Late Bird</th>
             </tr>
-          ))}
-          <tr>
-            <td colSpan="3">
-              10% discount on registeration fees for IFIP members, IFIP TC
-              members and IFIP working group
-            </td>
-          </tr>
+            {items.map(item => (
+              <tr key={item.event}>
+                <td>{item.event}</td>
+                <td>{item.date[0]}</td>
+                <td>{item.date[1]}</td>
+              </tr>
+            ))}
+            <tr>
+              <td colSpan="3">
+                10% discount on registeration fees for IFIP members, IFIP TC
+                members and IFIP working group
+              </td>
+            </tr>
+          </tbody>
         </table>
 
         <p className="text-center">* No TA and DA will be provided</p>
