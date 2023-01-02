@@ -15,6 +15,33 @@ export default function HomeSection() {
           AI, Knowledge Engineering and IoT for Smart Systems
         </b>
       </p>
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          flexWrap: 'wrap',
+          gap: '20px',
+        }}
+        className="animate__animated animate__flash animate__slower"
+      >
+        <a
+          href="https://drive.google.com/file/d/1J5XEhtVjohgeJectjWaqwfw6bnwwoK40/view"
+          className="link"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <u>Preconference Workshop Schedule</u>
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1cGkQVKaNr9yLfPp6Yp2RTUdfRrON-eZh/view"
+          className="link"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <u>Conference Schedule</u>
+        </a>
+      </div>
+
       <div className="items">
         <div className="home-img">
           <img

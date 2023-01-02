@@ -97,4 +97,15 @@
       background-color: #3498db;
     }
   }
+
+  .link {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .link:hover {
+    color: #0099ff;
+  }
 }
