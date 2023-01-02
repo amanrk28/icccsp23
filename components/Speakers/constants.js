@@ -44,4 +44,11 @@ export const SPEAKERS = [
     description: 'Honeywell Technology Solutions',
     profile: 'https://www.csie.ncku.edu.tw/~klan/',
   },
+  {
+    image: '/vikas.jpg',
+    name: 'Vikash Kumar',
+    designation: 'Solution Architect',
+    description: 'EY - GDS India',
+    profile: '',
+  },
 ];
