@@ -66,6 +66,40 @@ export default function Conference() {
           Society and for the 2021 edition, we have got approval from Springer -
           International Federation for Information Processing (IFIP).
         </p>
+        <h2>
+          International Federation for Information Processing( IFIP) our
+          supporter
+        </h2>
+        <h3 style={{ marginTop: '20px' }}>
+          <a href="https://ifip.org/">IFIP TC12 - Artificial Intelligence</a>
+        </h3>
+        <p>
+          AI is one of the oldest and most exciting subfields of computing,
+          covering such areas as intelligent robotics, intelligent planning and
+          scheduling, model-based reasoning, fault diagnosis, natural language
+          processing, machine translation, knowledge representation and
+          reasoning, knowledge- based systems, knowledge engineering,
+          intelligent agents, machine learning, neural nets, genetic algorithms
+          and knowledge management. TC12 was formed back in 1989. It now has
+          members representing 33 national computer societies, together with
+          representatives of the ACM and the IEEE, and has several working
+          groups covering major topics in AI. <br /> In recent years, TC12 and
+          its Working Groups have sponsored or co-sponsored a range of events
+          worldwide. Details of some of these are given on this website. It has
+          also made major contributions to recent IFIP World Computer
+          Congresses. <br />
+          ICCCSP 2023 is proud in associating with TC12, our respect to The
+          chair of TC12 <br />
+          <i>Professor Eunika Mercier-Laurent</i>
+        </p>
+        <a href="https://www.youtube.com/watch?v=w_ORl9mLH0U">
+          <b>
+            IFIP - Leading Professional & Socially Responsible ICT Worldwide
+            (https://www.youtube.com/watch?v=w_ORl9mLH0U)
+          </b>
+        </a>
+        <br />
+        <br />
         <AboutUs />
       </div>
     </>
